@@ -1,0 +1,45 @@
+.portada-descripcion{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.portada-descripcion img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capa-portada-descripcion{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.644);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-capa-portada{
+    width: 700px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 599px) {
+    .portada-descripcion{
+        height: 400px;
+        width: 100%;
+        position: relative;
+    }
+
+    .info-capa-portada{
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}

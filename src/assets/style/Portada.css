@@ -1,0 +1,54 @@
+.portada{
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+
+.portada img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capa-portada{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+   
+}
+
+.capa-portada div{
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center
+}
+
+@media screen and (max-width: 599px) {
+    .portada{
+        height: 500px;
+        width: 100%;
+    }
+
+    .capa-portada div{
+        height: 400px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       text-align: center;
+       font-size: 15px;
+    }
+}
