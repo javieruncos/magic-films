@@ -1,0 +1,81 @@
+#app {
+    height: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.card-testimonial {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.container-card-testimonial {
+    height: 100%;
+    width: 100%;
+    /* background-color: #01f7b8; */
+    border: 1px solid #01f7b8;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.herder-card-testimonial {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usuario-img {
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border-radius: 59%;
+}
+
+.usuario-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.body-card-testimonial {
+    height: 100%;
+    width: 100%;
+}

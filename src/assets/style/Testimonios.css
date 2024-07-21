@@ -1,5 +1,13 @@
 .testimonios{
     height: 500px;
     width: 100%;
-    background-color: blue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
+
+.container-slider{
+   height: 80%;
+   width: 80%;
+}
+

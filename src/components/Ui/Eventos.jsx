@@ -13,7 +13,7 @@ const Eventos = () => {
             <div className='eventos'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-6 col-lg-6 my-2">
+                        <div className="col-12 col-md-6 col-lg-4 my-2">
                             <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
@@ -23,7 +23,7 @@ const Eventos = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6 my-2">
+                        <div className="col-12 col-md-6 col-lg-4 my-2">
                         <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
@@ -33,7 +33,7 @@ const Eventos = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6 my-2">
+                        <div className="col-12 col-md-6 col-lg-4 my-2">
                         <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
@@ -43,7 +43,7 @@ const Eventos = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6 my-2">
+                        <div className="col-12 col-md-6 col-lg-4 my-2">
                         <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
@@ -53,7 +53,7 @@ const Eventos = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6 my-2">
+                        <div className="col-12 col-md-6 col-lg-4 my-2">
                         <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
@@ -63,7 +63,7 @@ const Eventos = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6 my-2">
+                        <div className="col-12 col-md-6 col-lg-4 my-2">
                         <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
