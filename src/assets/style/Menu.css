@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     z-index: 10;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     animation: header-scroll linear both;
     animation-timeline: scroll(root block);
@@ -12,8 +12,42 @@
     transition: 5s ease;
 }
 
+.link-menu{
+    color: white;
+    font-size: 20px;
+}
+
+.link-menu:hover{
+    color: #01f7b8;
+    transition: 0.5s ease;
+    
+}
+
 @keyframes header-scroll {
     to{
         background-color: #191919;
     }
+}
+
+@media screen and (max-width: 599px) {
+    .menu-nav{
+        background-color:#191919;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        font-size: 20px;
+        font-weight: bold;
+        animation: header-scroll linear both;
+        animation-timeline: scroll(root block);
+        animation-range: 0 200px;
+        transition: 5s ease;
+    }
+
+    .link-menu{
+        color: white;
+        font-size: 15px;
+    }
+
+    
 }

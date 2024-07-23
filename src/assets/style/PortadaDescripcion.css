@@ -24,7 +24,6 @@
 
 .info-capa-portada{
     width: 700px;
-    padding: 20px;
     font-size: 25px;
 }
 
@@ -39,7 +38,7 @@
         width: 100%;
         padding: 20px;
         font-size: 15px;
-        text-align: center;
+     
     }
     
 }
