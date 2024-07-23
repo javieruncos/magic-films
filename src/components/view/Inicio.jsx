@@ -1,4 +1,5 @@
 import "../../assets/style/Inicio.css";
+import Caracteristicas from "../Ui/Caracteristicas";
 import Eventos from "../Ui/Eventos";
 import Portada from "../Ui/Portada";
 import PortadaDescripcion from "../Ui/PortadaDescripcion";
@@ -16,9 +17,10 @@ const Inicio = () => {
                     <PortadaDescripcion></PortadaDescripcion>
                 </article>
                 <article className="my-5">
-                    <Testimonios></Testimonios>
+                    <Caracteristicas></Caracteristicas>
+                    {/* <Testimonios></Testimonios> */}
                 </article>
-                <article className="container">
+                <article>
                  <SobreNosotros></SobreNosotros>
                 </article>
             </section>

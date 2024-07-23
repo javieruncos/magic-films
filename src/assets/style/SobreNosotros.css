@@ -1,5 +1,12 @@
 .sobre-nosotros{
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-color: red;
+}
+
+
+.nosotros-img{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
 }
