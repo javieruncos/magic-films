@@ -42,3 +42,13 @@
     width: 100%;
     padding-top: 20px;
 }
+
+
+@media screen and (max-width: 599px) {
+    .caracteristicas-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        height: 100%;
+        gap: 0px;
+    }
+}
