@@ -4,7 +4,7 @@ const Eventos = () => {
     return (
         <div className="container">
             <div className="titulo-eventos mb-4 px-3">
-                <h3 className="text-color fs-2 fw-bold" >Cada evento, una historia unica</h3>
+                <h3 className="text-color fs-2 fw-bold my-4" >Cada evento, una historia unica</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit
                     . Ipsam omnis facilis molestiae a placeat porro animi ducimus non
                     doloremque facere.
@@ -17,59 +17,51 @@ const Eventos = () => {
                             <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
-                                   <div className="nombre-evento">
-                                      <h4>Nombre del evento</h4>
-                                   </div>
+                                    <div className="container mt-5 mx-3">
+                                        <h2>Nombre del evento</h2>
+                                    </div>
+                                    <div className="nombre-evento">
+                                        <h4>mas informacion</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 my-2">
-                        <div className="card-event">
+                            <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
-                                   <div className="nombre-evento">
-                                      <h4>Nombre del evento</h4>
-                                   </div>
+                                    <div className="container mt-5 mx-3">
+                                        <h2>Nombre del evento</h2>
+                                    </div>
+                                    <div className="nombre-evento">
+                                        <h4>mas informacion</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 my-2">
-                        <div className="card-event">
+                            <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
-                                   <div className="nombre-evento">
-                                      <h4>Nombre del evento</h4>
-                                   </div>
+                                    <div className="container mt-5 mx-3">
+                                        <h2>Nombre del evento</h2>
+                                    </div>
+                                    <div className="nombre-evento">
+                                        <h4>mas informacion</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 my-2">
-                        <div className="card-event">
+                            <div className="card-event">
                                 <img src={souveniers} alt="" />
                                 <div className="capa-card-eventos">
-                                   <div className="nombre-evento">
-                                      <h4>Nombre del evento</h4>
-                                   </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-6 my-2">
-                        <div className="card-event">
-                                <img src={souveniers} alt="" />
-                                <div className="capa-card-eventos">
-                                   <div className="nombre-evento">
-                                      <h4>Nombre del evento</h4>
-                                   </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-6 my-2">
-                        <div className="card-event">
-                                <img src={souveniers} alt="" />
-                                <div className="capa-card-eventos">
-                                   <div className="nombre-evento">
-                                      <h4>Nombre del evento</h4>
-                                   </div>
+                                    <div className="container mt-5 mx-3">
+                                        <h2>Nombre del evento</h2>
+                                    </div>
+                                    <div className="nombre-evento">
+                                        <h4>mas informacion</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>

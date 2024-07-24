@@ -4,7 +4,9 @@ import Eventos from "../Ui/Eventos";
 import Portada from "../Ui/Portada";
 import PortadaDescripcion from "../Ui/PortadaDescripcion";
 import SobreNosotros from "../Ui/SobreNosotros";
-import Testimonios from "../Ui/Testimonios";
+import WspBtn from "../Ui/WspBtn";
+
+
 const Inicio = () => {
     return (
         <main>
@@ -16,15 +18,14 @@ const Inicio = () => {
                 <article className="mt-5">
                     <PortadaDescripcion></PortadaDescripcion>
                 </article>
-                <article className="my-5">
+                <article className="my-5 pt-5">
                     <Caracteristicas></Caracteristicas>
-                    {/* <Testimonios></Testimonios> */}
                 </article>
-                <article>
+                <article className="my-5 pt-5">
                  <SobreNosotros></SobreNosotros>
                 </article>
             </section>
-
+         <WspBtn></WspBtn>
         </main>
     );
 };

@@ -9,7 +9,7 @@ const SobreNosotros = () => {
                     <img src="https://cdn0.casamientos.com.ar/vendor/7425/3_2/960/jpg/entrada_7_117425.jpeg" alt="" />
                 </div>
                 <div className="info-nosotros">
-                    <img src={fondo} alt="" />
+                    {/* <img src={fondo} alt="" /> */}
                     <div className="text-nosotros">
                         <h3 className="display-4 text-color fw-bold">The exceptional, everywhere</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae

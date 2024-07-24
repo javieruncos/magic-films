@@ -1,4 +1,4 @@
-.App{
+.App {
     background-color: #1b1b1b;
     /* background-color: black; */
     display: flex;
@@ -8,6 +8,31 @@
     width: 100%;
 }
 
-.text-color{
+.text-color {
     color: #01f7b8;
+}
+
+.wsp {
+    height: 90px;
+    width: 150px;
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #01f7b8;
+}
+
+
+@media screen and (max-width: 599px) {
+    .wsp {
+        height: 50px;
+        width: 100px;
+        position: fixed;
+        bottom: 40px;
+        right: 0px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        background-color: #01f7b8;
+    }
 }

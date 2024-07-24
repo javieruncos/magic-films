@@ -34,15 +34,12 @@
  margin: 0;
 }
 
-
-
 .caracteristicas-body{
     font-size: 17px;
     padding-top: 10px;
     width: 100%;
     padding-top: 20px;
 }
-
 
 @media screen and (max-width: 599px) {
     .caracteristicas-row {
