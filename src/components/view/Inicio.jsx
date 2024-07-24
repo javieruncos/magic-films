@@ -1,13 +1,14 @@
 import { useEffect } from "react";
 import "../../assets/style/Inicio.css";
 import Caracteristicas from "../Ui/Caracteristicas";
-import Eventos from "../Ui/Eventos";
 import Portada from "../Ui/Portada";
 import PortadaDescripcion from "../Ui/PortadaDescripcion";
+import Eventos from "../Ui/Eventos";
 import SobreNosotros from "../Ui/SobreNosotros";
 import WspBtn from "../Ui/WspBtn";
 import Aos from "aos";
 import "aos/dist/aos.css"
+
 
 
 const Inicio = () => {

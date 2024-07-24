@@ -13,7 +13,6 @@ const Menu = () => {
                             <Nav.Link href="#home" className="link-menu">Home</Nav.Link>
                             <Nav.Link href="#link" className="link-menu">Sobre Nosotros</Nav.Link>
                             <Nav.Link href="#home" className="link-menu">Servicios</Nav.Link>
-                            <Nav.Link href="#link" className="link-menu">Contacto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

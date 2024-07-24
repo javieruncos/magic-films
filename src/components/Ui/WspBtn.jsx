@@ -2,9 +2,12 @@ import React from 'react';
 
 const WspBtn = () => {
     return (
-        <div className='wsp'>
-            
-        </div>
+        <>
+            <button className='wsp'>
+                <i class="bi bi-whatsapp"></i>
+            </button>
+        </>
+
     );
 };
 
