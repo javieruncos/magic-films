@@ -13,7 +13,7 @@
 }
 
 .link-menu{
-    color: white;
+    color: #01f7b8;
     font-size: 20px;
 }
 
@@ -25,9 +25,10 @@
 
 @keyframes header-scroll {
     to{
-        background-color: #191919;
+        background-color: black;
     }
 }
+
 
 @media screen and (max-width: 599px) {
     .menu-nav{

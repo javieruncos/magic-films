@@ -6,13 +6,11 @@ const SobreNosotros = () => {
 
             <div className='sobre-nosotros' data-aos="fade-up">
                 <div className="nosotros-img">
-                    {/* <img src="https://cdn0.casamientos.com.ar/vendor/7425/3_2/960/jpg/entrada_7_117425.jpeg" alt="" /> */}
                     <img src="https://images.pexels.com/photos/2883160/pexels-photo-2883160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                 </div>
                 <div className="info-nosotros">
-                    {/* <img src={fondo} alt="" /> */}
                     <div className="text-nosotros">
-                        <h3 className="display-4 text-color fw-bold">The exceptional, everywhere</h3>
+                        <h3 className="display-5 text-color fw-bold">Lo excepcional, en todas partes</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
                             ducimus ipsa assumenda provident maiores iure dolor, impedit dolore iste
                             dicta eum quas architecto, molestias ullam voluptate ab voluptates,

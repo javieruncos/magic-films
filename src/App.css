@@ -8,6 +8,7 @@
     width: 100%;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    position: relative;
 
 }
 
@@ -34,12 +35,13 @@
 @media screen and (max-width: 599px) {
     .wsp {
         height: 50px;
-        width: 100px;
+        width: 70px;
         position: fixed;
         bottom: 40px;
         right: 0px;
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
         background-color: #01f7b8;
+        font-size: 30px;
     }
 }
