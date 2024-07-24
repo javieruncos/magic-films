@@ -4,7 +4,7 @@ const SobreNosotros = () => {
     return (
         <>
 
-            <div className='sobre-nosotros'>
+            <div className='sobre-nosotros' data-aos="fade-up">
                 <div className="nosotros-img">
                     <img src="https://cdn0.casamientos.com.ar/vendor/7425/3_2/960/jpg/entrada_7_117425.jpeg" alt="" />
                 </div>
@@ -24,9 +24,9 @@ const SobreNosotros = () => {
             <div className="Portada-contacto">
                 <img src="https://www.digixem360.com/wp-content/uploads/2022/11/Events.jpg.webp" alt="" />
                 <div className="capa-contacto d-flex justify-content-center flex-column">
-                    <div className="d-flex justify-content-center flex-column text-center container px-3">
-                        <h5 className="display-2">Podemos ayudarte?</h5>
-                        <p className="">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div className="d-flex justify-content-center flex-column text-center container px-3" data-aos="fade-up">
+                        <h5 className="display-2 fw-bold">Podemos ayudarte?</h5>
+                        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div>
                             <button className="btn-contacto">comunicate con nosotros</button>
                         </div>

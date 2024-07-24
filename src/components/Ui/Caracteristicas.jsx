@@ -1,7 +1,7 @@
 import "../../assets/style/Caracteristicas.css"
 const Caracteristicas = () => {
     return (
-        <div className="caracteristicas container">
+        <div className="caracteristicas container" data-aos="fade-up">
             <div className="caracteristicas-row">
                 <div className="caracteristicas-col">
                     <div className="caracteristicas-header">
