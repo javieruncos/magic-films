@@ -1,5 +1,6 @@
 import "../../assets/style/Eventos.css";
 import souveniers from "../../assets/img/souveniers.jpeg";
+import { Link } from "react-router-dom";
 const Eventos = () => {
     return (
         <div className="container" >
@@ -20,9 +21,9 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <div className="nombre-evento">
-                                        <h4>mas informacion</h4>
-                                    </div>
+                                    <Link to={"/bodas"}  className="btn-evento">
+                                        mas informacion
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -33,9 +34,9 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <div className="nombre-evento">
-                                        <h4>mas informacion</h4>
-                                    </div>
+                                    <Link to={"/bodas"}  className="btn-evento">
+                                        mas informacion
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -46,9 +47,9 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <div className="nombre-evento">
-                                        <h4>mas informacion</h4>
-                                    </div>
+                                    <Link to={"/eventos"}  className="btn-evento">
+                                        mas informacion
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -59,9 +60,9 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <div className="nombre-evento">
-                                        <h4>mas informacion</h4>
-                                    </div>
+                                    <Link to={"/eventos"}  className="btn-evento">
+                                        mas informacion
+                                    </Link>
                                 </div>
                             </div>
                         </div>

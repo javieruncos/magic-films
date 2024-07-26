@@ -7,7 +7,7 @@ const Portada = () => {
             <div className="capa-portada">
                 <div className="container" data-aos="fade-up">
                     <div className="container">
-                        <h1 className="display-1 fw-bold">Nuestra comunidad</h1>
+                        <h1 className="display-1 fw-bold">Contenido Audio visual</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             Dolores doloribus accusantium omnis possimus, consectetur id!
                         </p>

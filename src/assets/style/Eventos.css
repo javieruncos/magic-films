@@ -39,7 +39,7 @@
    
 }
 
-.nombre-evento{
+.btn-evento{
     height: 50px;
     width: 250px;
     background-color: #01f7b8;
@@ -48,6 +48,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 599px) {

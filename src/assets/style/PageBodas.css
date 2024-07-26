@@ -1,0 +1,49 @@
+.portada-bodas{
+    height: 600px;
+    width: 100%;
+    background-color: blue;
+   position: relative;
+}
+
+.portada-bodas img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capa-portada-bodas{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.container-title{
+    height: 100%;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.bodas-img{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+}
+
+.bodas-img img{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.descripcion-bodas{
+    font-size: 25px;
+}
