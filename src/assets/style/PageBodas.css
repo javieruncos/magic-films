@@ -47,3 +47,59 @@
 .descripcion-bodas{
     font-size: 25px;
 }
+
+/* ******************************************************* */
+.cardMomentos-boda{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+}
+
+.cardMomentos-boda img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}   
+
+/* ********************** servicios********************************* */
+.servicios-bodas{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 20px;
+    overflow: hidden;
+    color: black;
+}
+
+.hearderServicios{
+    height: 100px;
+    width: 100%;
+}
+
+.color-servicios{
+    background-color: #87fee2;
+}
+
+.color-servicios2{
+    background-color: #a3a1a6;
+}
+
+.color-servicios3{
+    background-color:#126e7b ;
+}
+
+/* ************************************************* */
+.portada-secundaria-bodas{
+    height: 400px;
+    width: 100%;
+    background-image: url("https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

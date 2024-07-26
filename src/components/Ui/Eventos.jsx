@@ -21,9 +21,9 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <Link to={"/bodas"}  className="btn-evento">
+                                    <a href="/bodas"  className="btn-evento">
                                         mas informacion
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
