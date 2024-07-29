@@ -1,4 +1,6 @@
 import "../../assets/style/PageBodas.css";
+import { useEffect } from "react";
+import Testimonios from "../../components/Ui/Testimonios"
 const PageBodas = () => {
     return (
         <main>
@@ -9,7 +11,7 @@ const PageBodas = () => {
                         <div className="capa-portada-bodas">
                             <div className="container-title container">
                                 <div>
-                                    <h2 className="display-1">Magia en tu dia </h2>
+                                    <h2 className="display-1 fw-bold"><span className="text-color">Magia</span> en tu dia </h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolores.</p>
                                 </div>
                             </div>
@@ -131,6 +133,9 @@ const PageBodas = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
+                </article>
+                <article>
+                    <Testimonios></Testimonios>
                 </article>
             </section>
 

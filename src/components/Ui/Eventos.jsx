@@ -3,7 +3,7 @@ import souveniers from "../../assets/img/souveniers.jpeg";
 import { Link } from "react-router-dom";
 const Eventos = () => {
     return (
-        <div className="container" >
+        <div className="container" data-aos="fade-up">
             <div className="titulo-eventos mb-4 px-3" data-aos="fade-up">
                 <h3 className="text-color fs-3 fw-bold my-4" >Cada evento, una historia unica</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit
@@ -34,9 +34,9 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <Link to={"/bodas"}  className="btn-evento">
+                                    <a href="/bodas"  className="btn-evento">
                                         mas informacion
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

@@ -1,17 +1,49 @@
+import { useEffect, useRef } from "react";
 import "../../assets/style/Portada.css";
-import eventoPortada from "../../assets/img/events.jpeg";
+import video from "../../assets/videos/video-fiesta.mp4";
 const Portada = () => {
+
+    const videoRef = useRef(null);
+    const startTime = 10; // Segundo desde el que quieres que inicie el video
+    const endTime = 60; // Segundo hasta el que quieres que se haga el loop
+  
+    useEffect(() => {
+      const videoElement = videoRef.current;
+  
+      const handleLoadedMetadata = () => {
+        videoElement.currentTime = startTime;
+        videoElement.play();
+      };
+  
+      const handleTimeUpdate = () => {
+        if (videoElement.currentTime >= endTime) {
+          videoElement.currentTime = startTime;
+        }
+      };
+  
+      videoElement.addEventListener('loadedmetadata', handleLoadedMetadata);
+      videoElement.addEventListener('timeupdate', handleTimeUpdate);
+  
+      return () => {
+        videoElement.removeEventListener('loadedmetadata', handleLoadedMetadata);
+        videoElement.removeEventListener('timeupdate', handleTimeUpdate);
+      };
+    }, [startTime, endTime]);
+
+
     return (
         <div className='portada'>
-            <img src={eventoPortada} alt="" />
+            <video src={video} autoPlay muted loop playsInline className="rotated-video" ref={videoRef}>
+                Your browser does not support the video tag.
+            </video>
             <div className="capa-portada">
                 <div className="container" data-aos="fade-up">
                     <div className="container">
-                        <h1 className="display-1 fw-bold">Contenido Audio visual</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Dolores doloribus accusantium omnis possimus, consectetur id!
-                        </p>
+                        <h1 className="display-2 fw-bold ">
+                            <span className="text-color me-3">Magic Films</span>
+                            Contenido Audiovisual</h1>
                     </div>
+                    <button className="btn-portada mt-3">Comunicate</button>
                 </div>
             </div>
         </div>

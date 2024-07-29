@@ -3,12 +3,19 @@
     width: 100%;
     background-color: aqua;
     position: relative;
+    overflow: hidden;
+   
 }
 
-.portada img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+
+.rotated-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Ajusta el ancho del video para que cubra todo el alto del contenedor después de rotar */
+    height: 120vw; /* Ajusta la altura del video para que cubra todo el ancho del contenedor después de rotar */
+    transform: translate(-50%, -50%) rotate(-90deg);
+    transform-origin: center center;
 }
 
 .capa-portada{
@@ -26,13 +33,25 @@
 }
 
 .capa-portada div{
-    height: 150px;
+    height: 215px;
     width: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    text-align: center
+}
+
+.btn-portada{
+    padding: 10px 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-portada:hover{
+    border: 1px solid #01f7b8;
+    background-color: #191919;
 }
 
 @media screen and (max-width: 599px) {
