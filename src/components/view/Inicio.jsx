@@ -8,6 +8,7 @@ import SobreNosotros from "../Ui/SobreNosotros";
 import WspBtn from "../Ui/WspBtn";
 import Aos from "aos";
 import "aos/dist/aos.css"
+import Servicios from "../Ui/Servicios";
 
 
 
@@ -23,7 +24,7 @@ const Inicio = () => {
                     <PortadaDescripcion></PortadaDescripcion>
                 </article>
                 <article className="my-5 pt-5">
-                    <Caracteristicas></Caracteristicas>
+                  <Servicios></Servicios>
                 </article>
                 <article className="my-5 pt-5">
                     <SobreNosotros></SobreNosotros>

@@ -2,7 +2,7 @@ import "../../assets/style/Servicios.css";
 
 const Servicios = () => {
     return (
-        <article className=" container">
+        <article className=" container"  data-aos="fade-up">
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-4">
                             <div className="servicios-bodas color-servicios my-4">
