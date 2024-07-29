@@ -3,22 +3,20 @@
     display: flex;
 }
 
-
 .nosotros-img {
-    height: 500px;
-    width: 50%;
-    background-color: blue;
+    height: 670px;
+    width: 40%;
+   
 }
 
 .nosotros-img img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
 }
 
 .info-nosotros {
-    height: 500px;
-    width: 50%;
+    height: 670px;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +37,6 @@
     font-size: 20px;
     position: absolute;
 }
-
 
 .Portada-contacto {
     height: 400px;

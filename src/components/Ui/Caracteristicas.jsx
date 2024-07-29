@@ -1,8 +1,11 @@
 import "../../assets/style/Caracteristicas.css"
+import Servicios from "./Servicios";
+
+
 const Caracteristicas = () => {
     return (
         <div className="caracteristicas container" data-aos="fade-up">
-            <div className="caracteristicas-row">
+            {/* <div className="caracteristicas-row">
                 <div className="caracteristicas-col">
                     <div className="caracteristicas-header">
                         <div className="icon-caracteristicas"></div>
@@ -48,10 +51,9 @@ const Caracteristicas = () => {
                             assumenda quisquam animi, sint sequi culpa recusandae illo.
                         </p>
                     </div>
-
                 </div>
-
-            </div>
+            </div> */}
+            <Servicios></Servicios>
 
         </div>
     );

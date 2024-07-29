@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import "../../assets/style/Portada.css";
 import video from "../../assets/videos/video-fiesta.mp4";
+import evento from "../../assets/img/events.jpeg";
 const Portada = () => {
 
     const videoRef = useRef(null);
@@ -33,6 +34,7 @@ const Portada = () => {
 
     return (
         <div className='portada'>
+          <img src={evento} alt="foto de fiesta"  className="img-portadaEvento"/>
             <video src={video} autoPlay muted loop playsInline className="rotated-video" ref={videoRef}>
                 Your browser does not support the video tag.
             </video>
@@ -42,8 +44,8 @@ const Portada = () => {
                         <h1 className="display-2 fw-bold ">
                             <span className="text-color me-3">Magic Films</span>
                             Contenido Audiovisual</h1>
-                    </div>
                     <button className="btn-portada mt-3">Comunicate</button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,25 +1,24 @@
-.portada-descripcion{
+.portada-secudariaInicio{
     height: 500px;
     width: 100%;
+    background-image: url("../img/events3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
 }
 
-.portada-descripcion img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.capa-portada-descripcion{
+.capa-descripcion-portada{
+    display: flex;
+    justify-content: center;
+    align-items: end;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.644);
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: end;
 }
 
 .info-capa-portada{
@@ -28,7 +27,7 @@
 }
 
 @media screen and (max-width: 599px) {
-    .portada-descripcion{
+    .portada-secudariaInicio{
         height: 400px;
         width: 100%;
         position: relative;

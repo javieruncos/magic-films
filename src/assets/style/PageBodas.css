@@ -60,6 +60,10 @@
     object-fit: cover;
 }   
 
+
+.titulo-bodas{
+    width: 50%;
+}
 /* ********************** servicios********************************* */
 .servicios-bodas{
     height: 350px;
@@ -87,11 +91,15 @@
     background-color:#126e7b ;
 }
 
+.servicios-bodas i{
+    font-size: 70px;
+}
+
 /* ************************************************* */
 .portada-secundaria-bodas{
     height: 400px;
     width: 100%;
-    background-image: url("https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg");
+    background-image: url("../img//events3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -102,3 +110,32 @@
     text-align: center;
 }
 
+@media screen and (max-width: 599px) {
+
+  .servicios-bodas{
+    height: 300px;
+  }
+
+    .titulo-bodas{
+        width: 100%;
+    }
+
+    .descripcion-bodas{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .cardMomentos-boda{
+        margin: 60px 0px;
+        font-size: 20px;
+    }
+    
+    .servicios-bodas i{
+        font-size: 70px;
+    }
+
+    .portada-secundaria-bodas div{
+        width:70%;
+    }
+   
+}

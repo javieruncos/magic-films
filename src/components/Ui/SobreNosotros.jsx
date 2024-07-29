@@ -1,12 +1,14 @@
 import "../../assets/style/SobreNosotros.css";
 import fondo from "../../assets/img/ttten.svg"
+import Estefi from "../../assets/img/EstefiSandoval.jpg"
 const SobreNosotros = () => {
     return (
         <>
 
             <div className='sobre-nosotros' data-aos="fade-up">
                 <div className="nosotros-img">
-                    <img src="https://images.pexels.com/photos/2883160/pexels-photo-2883160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                    {/* <img src="https://images.pexels.com/photos/2883160/pexels-photo-2883160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /> */}
+                    <img src={Estefi} alt="" />
                 </div>
                 <div className="info-nosotros">
                     <div className="text-nosotros">

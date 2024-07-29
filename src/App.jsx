@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
@@ -5,8 +6,15 @@ import Inicio from './components/view/Inicio'
 import Menu from './common/Menu'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import PageBodas from './components/view/PageBodas'
+import Aos from 'aos'
 
 function App() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000
+    })
+  }, [])
 
   return (
     <>

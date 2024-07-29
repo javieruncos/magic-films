@@ -12,13 +12,6 @@ import "aos/dist/aos.css"
 
 
 const Inicio = () => {
-
-    useEffect(() => {
-        Aos.init({
-            duration: 1000
-        })
-    },[])
-
     return (
         <main>
             <section>
@@ -33,10 +26,10 @@ const Inicio = () => {
                     <Caracteristicas></Caracteristicas>
                 </article>
                 <article className="my-5 pt-5">
-                 <SobreNosotros></SobreNosotros>
+                    <SobreNosotros></SobreNosotros>
                 </article>
             </section>
-         <WspBtn></WspBtn>
+            <WspBtn></WspBtn>
         </main>
     );
 };
