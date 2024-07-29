@@ -1,12 +1,10 @@
 .portada{
     height: 600px;
     width: 100%;
-    background-color: aqua;
     position: relative;
     overflow: hidden;
    
 }
-
 
 .rotated-video{
     position: absolute;
