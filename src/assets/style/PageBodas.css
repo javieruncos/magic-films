@@ -1,0 +1,141 @@
+.portada-bodas{
+    height: 600px;
+    width: 100%;
+    background-color: blue;
+   position: relative;
+}
+
+.portada-bodas img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capa-portada-bodas{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.container-title{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.bodas-img{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+}
+
+.bodas-img img{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.descripcion-bodas{
+    font-size: 25px;
+}
+
+/* ******************************************************* */
+.cardMomentos-boda{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+}
+
+.cardMomentos-boda img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}   
+
+
+.titulo-bodas{
+    width: 50%;
+}
+/* ********************** servicios********************************* */
+.servicios-bodas{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 20px;
+    overflow: hidden;
+    color: black;
+}
+
+.hearderServicios{
+    height: 100px;
+    width: 100%;
+}
+
+.color-servicios{
+    background-color: #87fee2;
+}
+
+.color-servicios2{
+    background-color: #a3a1a6;
+}
+
+.color-servicios3{
+    background-color:#126e7b ;
+}
+
+.servicios-bodas i{
+    font-size: 70px;
+}
+
+/* ************************************************* */
+.portada-secundaria-bodas{
+    height: 400px;
+    width: 100%;
+    background-image: url("../img//events3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+
+  .servicios-bodas{
+    height: 300px;
+  }
+
+    .titulo-bodas{
+        width: 100%;
+    }
+
+    .descripcion-bodas{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .cardMomentos-boda{
+        margin: 60px 0px;
+        font-size: 20px;
+    }
+    
+    .servicios-bodas i{
+        font-size: 70px;
+    }
+
+    .portada-secundaria-bodas div{
+        width:70%;
+    }
+   
+}

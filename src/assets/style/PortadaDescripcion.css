@@ -1,0 +1,43 @@
+.portada-secudariaInicio{
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/events3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.capa-descripcion-portada{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.644);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info-capa-portada{
+    width: 700px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 599px) {
+    .portada-secudariaInicio{
+        height: 400px;
+        width: 100%;
+        position: relative;
+    }
+
+    .info-capa-portada{
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+     
+    }
+    
+}

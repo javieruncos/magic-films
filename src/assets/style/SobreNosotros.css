@@ -1,0 +1,136 @@
+.sobre-nosotros {
+    width: 100%;
+    display: flex;
+}
+
+.nosotros-img {
+    height: 670px;
+    width: 40%;
+   
+}
+
+.nosotros-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.info-nosotros {
+    height: 670px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+}
+
+
+.info-nosotros img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-nosotros {
+    height: 80%;
+    width: 80%;
+    font-size: 20px;
+    position: absolute;
+}
+
+.Portada-contacto {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+
+.Portada-contacto img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capa-contacto {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.btn-contacto {
+    padding: 10px 80px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 599px) {
+    .sobre-nosotros {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-nosotros {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        font-size: 10px;
+    }
+   
+
+    .info-nosotros p {
+        font-size: 18px;
+    }
+
+    .nosotros-img {
+        height: 500px;
+        width: 100%;
+        background-color: blue;
+    }
+
+    .text-nosotros {
+        height: 80%;
+        width: 100%;
+        font-size: 20px;
+        position: absolute;
+        padding: 0px 20px;
+    }
+
+    /* ****************************************************** */
+
+    .capa-contacto div {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 10px;
+        
+    }
+
+    .capa-contacto div p {
+        font-size: 15px;
+    }
+
+    .btn-contacto {
+        padding: 10px 30px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        font-size: 10px;
+    }
+
+}
