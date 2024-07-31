@@ -27,12 +27,14 @@ const PageFiestas = () => {
                     <div className="row my-4">
                         <div className="col-12 col-md-6 col-lg-6">
                             <div className="descirpcion-fiestas">
-                                <p>En Magic Films, nos especializamos en capturar los momentos más memorables de tus
-                                    fiestas y eventos con una calidad inigualable. Nuestro equipo de profesionales se
-                                    encarga de registrar cada detalle, desde las emociones espontáneas hasta los momentos
-                                    clave, para que puedas revivir tus experiencias una y otra vez. Ya sea un cumpleaños,
-                                    una boda o cualquier celebración especial, te ofrecemos un servicio personalizado y
-                                    comprometido con la excelencia. Deja que tu evento se convierta en un recuerdo imborrable.
+                                <p>Ofrecemos servicios de filmación especializados en eventos y convenciones,
+                                    diseñados para maximizar tu presencia en redes
+                                    sociales. Nuestro equipo se enfoca en capturar cada detalle y momento clave,
+                                    creando contenido dinámico y atractivo que resuene con tu audiencia en plataformas
+                                    sociales. Desde videos profesionales que destacan los aspectos más importantes de tu
+                                    evento hasta contenido visual impactante que aumenta la interacción y visibilidad, estamos
+                                    aquí para transformar tus convenciones y eventos en experiencias virales. Deja que tu
+                                    marca brille con una cobertura audiovisual que destaca en el mundo digital.
                                 </p>
                                 <div className="contacto-servicios container my-5" >
                                     <div>

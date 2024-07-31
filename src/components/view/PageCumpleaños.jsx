@@ -10,7 +10,7 @@ const PageCumpleaños = () => {
                         <div className="capaPortada-fiestas">
                             <div className="container-title container">
                                 <div data-aos="fade-up">
-                                    <h2 className="display-3 fw-bold"><span className="text-color">Grabación</span>  de Eventos con Calidad Profesional</h2>
+                                    <h2 className="display-3 fw-bold"><span className="text-color">Producción</span> de Videos para Cumpleaños y Contenido para Redes Sociales</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolores.</p>
                                 </div>
                             </div>

@@ -1,6 +1,7 @@
 import "../../assets/style/PageBodas.css";
 import { useEffect } from "react";
 import Testimonios from "../../components/Ui/Testimonios"
+import SliderServicios from "../Ui/SliderServicios";
 const PageBodas = () => {
     return (
         <main>
@@ -124,16 +125,11 @@ const PageBodas = () => {
                         </div>
                     </div>
                 </article>
-                <article className="my-5">
-                    <div className="portada-secundaria-bodas ">
-                        <div>
-                            <h4 className="display-1 fw-bold text-color">MAGIC FILM</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                </article>
                 <article>
                     <Testimonios></Testimonios>
+                </article>
+                <article>
+                    <SliderServicios></SliderServicios>
                 </article>
             </section>
 
