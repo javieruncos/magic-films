@@ -1,0 +1,99 @@
+.portada-fiestas{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.portada-fiestas img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capaPortada-fiestas{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.descirpcion-fiestas{
+    height: 400px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.imagen-fiestas{
+    height: 400px;
+    width: 100%;
+}
+
+.imagen-fiestas img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Nuestros-Servicios{
+    height: 260px;
+    width: 100%;
+    border: 1px solid #01f7b8;
+    background-color: #191919;
+    overflow: hidden;
+}
+
+.hearder-servicios{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: #01f7b8;
+}
+
+.Nuestros-Servicios h5{
+    font-size: 30px;
+}
+
+.body-servicios{
+   font-size: 16px;
+}
+
+.contacto-servicios{
+    height: 130px;
+    width: 100%;
+    border: 1px solid #01f7b8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #18312b;
+}
+
+.contacto-servicios div{
+    width: 60%;
+    font-size: 14px;
+}
+
+.contacto-servicios button{
+    padding: 20px 20px;
+    background-color: #01f7b8;
+    border: none;
+}
+
+
+
+
+
+

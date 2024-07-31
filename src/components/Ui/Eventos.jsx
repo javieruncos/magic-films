@@ -21,7 +21,7 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <a href="/bodas"  className="btn-evento">
+                                    <a href="/fiestas"  className="btn-evento">
                                         mas informacion
                                     </a>
                                 </div>
@@ -47,9 +47,9 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <Link to={"/eventos"}  className="btn-evento">
+                                    <a href="./cumpleaños"  className="btn-evento">
                                         mas informacion
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -60,9 +60,9 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Nombre del evento</h2>
                                     </div>
-                                    <Link to={"/eventos"}  className="btn-evento">
+                                    <a href="/redes"  className="btn-evento">
                                         mas informacion
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
