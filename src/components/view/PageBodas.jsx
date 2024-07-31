@@ -12,8 +12,8 @@ const PageBodas = () => {
                         <div className="capa-portada-bodas">
                             <div className="container-title container">
                                 <div data-aos="fade-up">
-                                    <h2 className="display-1 fw-bold"><span className="text-color">Magia</span> en tu dia </h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolores.</p>
+                                    <h2 className="display-1 fw-bold"><span className="text-color">Producción</span>  Audiovisual  para Bodas </h2>
+                                    <button className="btn-verMas mt-4">ver más</button>
                                 </div>
                             </div>
                         </div>

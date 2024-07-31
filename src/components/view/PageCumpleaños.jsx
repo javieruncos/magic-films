@@ -11,7 +11,7 @@ const PageCumpleaños = () => {
                             <div className="container-title container">
                                 <div data-aos="fade-up">
                                     <h2 className="display-3 fw-bold"><span className="text-color">Producción</span> de Videos para Cumpleaños y Contenido para Redes Sociales</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolores.</p>
+                                    <button className="btn-verMas mt-4">ver más</button>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ const PageCumpleaños = () => {
                     </div>
                     <div className="row my-4">
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="descirpcion-fiestas">
+                            <div className="descirpcion-fiestas mt-3">
                                 <p>En Magic Films, nos especializamos en capturar los momentos más memorables de tus
                                     fiestas y eventos con una calidad inigualable. Nuestro equipo de profesionales se
                                     encarga de registrar cada detalle, desde las emociones espontáneas hasta los momentos
@@ -45,7 +45,7 @@ const PageCumpleaños = () => {
 
                         </div>
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="Nuestros-Servicios">
+                            <div className="Nuestros-Servicios mt-3">
                                 <div className="hearder-servicios">
                                     <h5>Nuestros Servicios</h5>
                                 </div>

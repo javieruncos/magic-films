@@ -12,7 +12,7 @@ const PageRedes = () => {
                             <div className="container-title container">
                                 <div data-aos="fade-up">
                                     <h2 className="display-3 fw-bold"><span className="text-color">Grabación</span>  de Eventos con Calidad Profesional</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolores.</p>
+                                    <button className="btn-verMas mt-4">ver más</button>
                                 </div>
                             </div>
                         </div>

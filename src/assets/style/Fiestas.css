@@ -92,8 +92,18 @@
     border: none;
 }
 
+.btn-verMas{
+    padding: 10px 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #01f7b8;
+}
 
-
+@media screen and (max-width: 599px) {
+    .descirpcion-fiestas{
+        height: 700px;
+    }
+}
 
 
 
