@@ -10,6 +10,7 @@ import PageFiestas from './components/view/PageFiestas'
 import Aos from 'aos'
 import PageCumpleaños from './components/view/PageCumpleaños'
 import PageRedes from './components/view/PageRedes'
+import FooterMenu from './common/FooterMenu'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
             <Route path="/cumpleaños" element={<PageCumpleaños></PageCumpleaños>} />
             <Route path="/redes" element={<PageRedes></PageRedes>} />
           </Routes>
+          <FooterMenu></FooterMenu>
         </BrowserRouter>
       </div>
     </>
