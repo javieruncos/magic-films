@@ -1,4 +1,5 @@
-import "../../assets/style/Fiestas.css";
+import "../../assets/style/EventosPages.css";
+import Servicios from "../Ui/Servicios";
 import SliderServicios from "../Ui/SliderServicios";
 const PageFiestas = () => {
     return (
@@ -12,7 +13,7 @@ const PageFiestas = () => {
                             <div className="container-title container">
                                 <div data-aos="fade-up">
                                     <h2 className="display-3 fw-bold"><span className="text-color">Grabación</span>  de Eventos con Calidad Profesional</h2>
-                                    <button className="btn-verMas mt-4">ver más</button>
+                                    <button className="btn-verMas mt-4">Contáctanos</button>
                                 </div>
                             </div>
                         </div>
@@ -26,7 +27,7 @@ const PageFiestas = () => {
                     </div>
                     <div className="row my-4">
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="descirpcion-fiestas">
+                            <div className="descripcion-column mb-5 pb-5">
                                 <p>Ofrecemos servicios de filmación especializados en eventos y convenciones,
                                     diseñados para maximizar tu presencia en redes
                                     sociales. Nuestro equipo se enfoca en capturar cada detalle y momento clave,
@@ -61,16 +62,17 @@ const PageFiestas = () => {
                                         <li>Experiencias de proyección y video inmersivo</li>
                                         <li>Vídeos sociales y digitales</li>
                                     </ul>
-
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </article>
             </section>
-            <section className="mt-5">
-                <article className="mt-5 pt-5">
+            <section>
+                <article>
+                    <Servicios></Servicios>
+                </article>
+                <article className="my-5 ">
                     <SliderServicios></SliderServicios>
                 </article>
             </section>

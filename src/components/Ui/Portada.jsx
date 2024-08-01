@@ -44,7 +44,7 @@ const Portada = () => {
                         <h1 className="display-2 fw-bold ">
                             <span className="text-color me-3">Magic Films</span>
                             Contenido Audiovisual</h1>
-                    <button className="btn-portada mt-3">Comunicate</button>
+                    <button className="btn-portada mt-3">Contáctanos</button>
                     </div>
                 </div>
             </div>

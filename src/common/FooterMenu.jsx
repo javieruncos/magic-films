@@ -3,7 +3,7 @@ import "../assets/style/Footer.css";
 import logoFooter from "../assets/img/Claqueta-Aqua.png"
 const FooterMenu = () => {
     return (
-        <div className="footer">
+        <div className="footer" id="contacto">
             <div className="container footer-menu">
                 <div className="row">
                     <div className="col-12 col-md-4 col-lg-3">
@@ -34,11 +34,6 @@ const FooterMenu = () => {
                                         <li>
                                             <a href="">
                                                 <i className="bi bi-facebook fs-1"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <i className="bi bi-instagram fs-1"></i>
                                             </a>
                                         </li>
                                     </ul>

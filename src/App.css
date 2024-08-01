@@ -1,6 +1,5 @@
 .App {
     background-color: #1b1b1b;
-    /* background-color: black; */
     display: flex;
     flex-direction: column;
     color: white;
@@ -9,7 +8,7 @@
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     position: relative;
-
+    scroll-behavior: smooth;
 }
 
 .text-color {

@@ -1,4 +1,5 @@
-import "../../assets/style/Fiestas.css";
+import "../../assets/style/EventosPages.css";
+import Servicios from "../Ui/Servicios";
 import SliderServicios from "../Ui/SliderServicios";
 const PageCumpleaños = () => {
     return (
@@ -11,7 +12,7 @@ const PageCumpleaños = () => {
                             <div className="container-title container">
                                 <div data-aos="fade-up">
                                     <h2 className="display-3 fw-bold"><span className="text-color">Producción</span> de Videos para Cumpleaños y Contenido para Redes Sociales</h2>
-                                    <button className="btn-verMas mt-4">ver más</button>
+                                    <button className="btn-verMas mt-4">Contáctanos</button>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +26,7 @@ const PageCumpleaños = () => {
                     </div>
                     <div className="row my-4">
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="descirpcion-fiestas mt-3">
+                            <div className="descripcion-column mt-3">
                                 <p>En Magic Films, nos especializamos en capturar los momentos más memorables de tus
                                     fiestas y eventos con una calidad inigualable. Nuestro equipo de profesionales se
                                     encarga de registrar cada detalle, desde las emociones espontáneas hasta los momentos
@@ -66,8 +67,11 @@ const PageCumpleaños = () => {
                     </div>
                 </article>
             </section>
-            <section className="mt-5">
-                <article className="mt-5 pt-5">
+            <section>
+                <article>
+                    <Servicios></Servicios>
+                </article>
+                <article className="my-5">
                     <SliderServicios></SliderServicios>
                 </article>
             </section>

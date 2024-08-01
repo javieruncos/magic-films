@@ -1,4 +1,5 @@
-import "../../assets/style/Fiestas.css";
+import "../../assets/style/EventosPages.css";
+import Servicios from "../Ui/Servicios";
 import SliderServicios from "../Ui/SliderServicios";
 
 const PageRedes = () => {
@@ -12,7 +13,7 @@ const PageRedes = () => {
                             <div className="container-title container">
                                 <div data-aos="fade-up">
                                     <h2 className="display-3 fw-bold"><span className="text-color">Grabación</span>  de Eventos con Calidad Profesional</h2>
-                                    <button className="btn-verMas mt-4">ver más</button>
+                                    <button className="btn-verMas mt-4">Contáctanos</button>
                                 </div>
                             </div>
                         </div>
@@ -26,7 +27,7 @@ const PageRedes = () => {
                     </div>
                     <div className="row my-4">
                         <div className="col-12 col-md-6 col-lg-6">
-                            <div className="descirpcion-fiestas">
+                            <div className="descripcion-column">
                                 <p>Impulsa tus productos en redes sociales con nuestro servicio de filmación profesional.
                                     Creamos contenido visual atractivo que destaca las cualidades de tus productos y
                                     captura la atención de tu audiencia. Desde anuncios llamativos hasta videos de demostración
@@ -67,8 +68,11 @@ const PageRedes = () => {
                     </div>
                 </article>
             </section>
-            <section className="mt-5">
-                <article className="mt-5 pt-5">
+            <section >
+                <article>
+                    <Servicios></Servicios>
+                </article>
+                <article className="my-5">
                     <SliderServicios></SliderServicios>
                 </article>
             </section>
