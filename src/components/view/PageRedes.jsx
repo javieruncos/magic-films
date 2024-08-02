@@ -8,7 +8,7 @@ const PageRedes = () => {
             <section>
                 <article>
                     <div className="portada-fiestas">
-                        <img src="https://media.istockphoto.com/id/541288028/es/foto/barman-est%C3%A1-haciendo-c%C3%B3ctel-en-el-club-nocturno.jpg?s=1024x1024&w=is&k=20&c=EpuBjpklELJ7nvZGfMsDbviENOAQZY8WGZ6WcSDJDVM=" alt="" />
+                    <img src="https://images.pexels.com/photos/4279096/pexels-photo-4279096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         <div className="capaPortada-fiestas">
                             <div className="container-title container">
                                 <div data-aos="fade-up">

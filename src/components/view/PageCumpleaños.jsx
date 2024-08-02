@@ -7,7 +7,7 @@ const PageCumpleaños = () => {
             <section>
                 <article>
                     <div className="portada-fiestas">
-                        <img src="https://images.pexels.com/photos/2337816/pexels-photo-2337816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                    <img src="https://images.pexels.com/photos/16450996/pexels-photo-16450996/free-photo-of-fiesta-partido-adolescente-celebracion.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         <div className="capaPortada-fiestas">
                             <div className="container-title container">
                                 <div data-aos="fade-up">

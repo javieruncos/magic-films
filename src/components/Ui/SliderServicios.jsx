@@ -62,7 +62,7 @@ const SliderServicios = () => {
                                 <div className="container mt-5 mx-3">
                                     <h2>Nombre del evento</h2>
                                 </div>
-                                <a href="/fiestas" className="btn-evento-servicios">
+                                <a href="/bodas" className="btn-evento-servicios">
                                     mas informacion
                                 </a>
                             </div>
@@ -75,7 +75,7 @@ const SliderServicios = () => {
                                 <div className="container mt-5 mx-3">
                                     <h2>Nombre del evento</h2>
                                 </div>
-                                <a href="/fiestas" className="btn-evento-servicios">
+                                <a href="/cumpleaños" className="btn-evento-servicios">
                                     mas informacion
                                 </a>
                             </div>
@@ -88,7 +88,7 @@ const SliderServicios = () => {
                                 <div className="container mt-5 mx-3">
                                     <h2>Nombre del evento</h2>
                                 </div>
-                                <a href="/fiestas" className="btn-evento-servicios">
+                                <a href="/redes" className="btn-evento-servicios">
                                     mas informacion
                                 </a>
                             </div>
