@@ -41,7 +41,6 @@
 .Portada-contacto {
     height: 400px;
     width: 100%;
-    background-color: red;
     position: relative;
 }
 
@@ -133,4 +132,21 @@
         font-size: 10px;
     }
 
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .nosotros-img {
+        height: 484px;
+        width: 40%;
+    }
+
+    .info-nosotros {
+        height: 484px;
+        width: 60%;
+    }
+
+    .text-nosotros {
+        font-size: 15px;
+    }
 }

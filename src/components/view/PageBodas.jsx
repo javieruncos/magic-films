@@ -1,6 +1,10 @@
 import "../../assets/style/PageBodas.css";
-import { useEffect } from "react";
-import Testimonios from "../../components/Ui/Testimonios"
+import SliderServicios from "../Ui/SliderServicios";
+import Servicios from "../Ui/Servicios";
+import bodaIglesia from "../../assets/img/boda-iglesia.jpeg";
+import preBoda from "../../assets/img/boda-ring.webp";
+import bodaFiesta from "../../assets/img/casamientos-fiesta.webp";
+import boda2 from "../../assets/img/boda2.jpeg";
 const PageBodas = () => {
     return (
         <main>
@@ -11,8 +15,8 @@ const PageBodas = () => {
                         <div className="capa-portada-bodas">
                             <div className="container-title container">
                                 <div data-aos="fade-up">
-                                    <h2 className="display-1 fw-bold"><span className="text-color">Magia</span> en tu dia </h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolores.</p>
+                                    <h2 className="display-1 fw-bold"><span className="text-color">Producción</span>  Audiovisual  para Bodas </h2>
+                                    <button className="btn-verMas mt-4">Contáctanos</button>
                                 </div>
                             </div>
                         </div>
@@ -23,7 +27,7 @@ const PageBodas = () => {
                         <h3 className="text-color">QUE HACEMOS COMO CREADORES DE CONTENIDO PARA BODAS?</h3>
                     </div>
                     <div className="row  mt-5"data-aos="fade-up">
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="w-100 descripcion-bodas">
                                 <p> Como creadores de contenido para bodas profesional nos dedicamos a
                                     la creación y edición de contenido audiovisual para bodas y eventos
@@ -33,9 +37,9 @@ const PageBodas = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="bodas-img">
-                                <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
+                                <img src={boda2} alt="" />
                             </div>
                         </div>
                     </div>
@@ -46,7 +50,7 @@ const PageBodas = () => {
                         <div className="row">
                             <div className="col-12 col-md-4 col-md-4 col-lg-4">
                                 <div className="cardMomentos-boda mt-4">
-                                    <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
+                                    <img src={preBoda} alt="foto de boda" />
                                     <div className="d-flex justify-content-center pt-4 fs-2">
                                         <span className="text-color">PRE</span>
                                     </div>
@@ -54,7 +58,7 @@ const PageBodas = () => {
                             </div>
                             <div className="col-12 col-md-4 col-md-4 col-lg-4">
                                 <div className="cardMomentos-boda mt-4">
-                                    <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
+                                    <img src={bodaIglesia} alt="foto de iglesia" />
                                     <div className="d-flex justify-content-center pt-4 fs-2">
                                         <span className="text-color">IGLESIA</span>
                                     </div>
@@ -62,7 +66,7 @@ const PageBodas = () => {
                             </div>
                             <div className="col-12 col-md-4 col-md-4 col-lg-4">
                                 <div className="cardMomentos-boda mt-4">
-                                    <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
+                                    <img src={bodaFiesta} alt="foto fiesta boda" />
                                     <div className="d-flex justify-content-center pt-4 fs-2">
                                         <span className="text-color">FIESTA</span>
                                     </div>
@@ -72,68 +76,10 @@ const PageBodas = () => {
                     </div>
                 </article>
                 <article className="my-5 pt-5 container" data-aos="fade-up">
-                    <div className="row">
-                        <div className="col-12 col-md-6 col-lg-4">
-                            <div className="servicios-bodas color-servicios my-4">
-                                <div className="hearderServicios d-flex justify-content-center align-items-center">
-                                    <span>
-                                        <i className="bi bi-camera-reels-fill  text-light"></i>
-                                    </span>
-                                </div>
-                                <div className="bodyServicios text-center container">
-                                    <span className="fs-3 fw-bold">FOTOS Y VIDEOS RESUMENES</span>
-                                    <div className="mt-3">
-                                        <p>Recibirás las fotos y videos que se capturaron
-                                            durante el evento en alta resolución en formato
-                                            documento</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-4">
-                            <div className="servicios-bodas color-servicios2 my-4">
-                                <div className="hearderServicios  d-flex justify-content-center align-items-center">
-                                    <span>
-                                        <i className="bi bi-camera-fill display-2 text-light"></i>
-                                    </span>
-                                </div>
-                                <div className="bodyServicios text-center container">
-                                    <span className="fs-3 fw-bold">RRSS CREACION DE CONTENIDO</span>
-                                    <div className="mt-3">
-                                        <p>Creamos para VOS stories, reels y Tiktoks para tus redes sociales.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-4">
-                            <div className="servicios-bodas color-servicios3 my-4">
-                                <div className="hearderServicios d-flex justify-content-center align-items-center">
-                                    <span>
-                                        <i className="bi bi-hourglass-bottom display-2 text-light"></i>
-                                    </span>
-                                </div>
-                                <div className="bodyServicios text-center container">
-                                    <span className="fs-3 fw-bold">ENTREGA RAPIDA Y EFICIENTE</span>
-                                    <div className="mt-3">
-                                        <p>Entregamos tu contenido de 24 a 72 hrs después del evento.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <Servicios></Servicios>
                 </article>
-                <article className="my-5">
-                    <div className="portada-secundaria-bodas ">
-                        <div>
-                            <h4 className="display-1 fw-bold text-color">MAGIC FILM</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <Testimonios></Testimonios>
+                <article className="mb-5">
+                    <SliderServicios></SliderServicios>
                 </article>
             </section>
 

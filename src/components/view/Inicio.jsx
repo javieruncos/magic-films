@@ -26,7 +26,7 @@ const Inicio = () => {
                 <article className="my-5 pt-5">
                   <Servicios></Servicios>
                 </article>
-                <article className="my-5 pt-5">
+                <article className="mt-5 pt-5" id="sobreNosotros">
                     <SobreNosotros></SobreNosotros>
                 </article>
             </section>

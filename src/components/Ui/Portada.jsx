@@ -5,7 +5,7 @@ import evento from "../../assets/img/events.jpeg";
 const Portada = () => {
 
     const videoRef = useRef(null);
-    const startTime = 10; // Segundo desde el que quieres que inicie el video
+    const startTime = 12; // Segundo desde el que quieres que inicie el video
     const endTime = 60; // Segundo hasta el que quieres que se haga el loop
   
     useEffect(() => {
@@ -44,7 +44,7 @@ const Portada = () => {
                         <h1 className="display-2 fw-bold ">
                             <span className="text-color me-3">Magic Films</span>
                             Contenido Audiovisual</h1>
-                    <button className="btn-portada mt-3">Comunicate</button>
+                    <button className="btn-portada mt-3">Contáctanos</button>
                     </div>
                 </div>
             </div>

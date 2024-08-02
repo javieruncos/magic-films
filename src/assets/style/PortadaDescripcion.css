@@ -41,3 +41,14 @@
     }
     
 }
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .capa-descripcion-portada div{
+        width: 50%;
+    }
+
+    .capa-descripcion-portada div {
+        width: 83%;
+        font-size: 14px;
+    }
+}

@@ -7,22 +7,22 @@ const SobreNosotros = () => {
 
             <div className='sobre-nosotros' data-aos="fade-up">
                 <div className="nosotros-img">
-                    {/* <img src="https://images.pexels.com/photos/2883160/pexels-photo-2883160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /> */}
                     <img src={Estefi} alt="" />
                 </div>
                 <div className="info-nosotros">
                     <div className="text-nosotros">
                         <h3 className="display-5 text-color fw-bold">Lo excepcional, en todas partes</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
-                            ducimus ipsa assumenda provident maiores iure dolor, impedit dolore iste
-                            dicta eum quas architecto, molestias ullam voluptate ab voluptates,
-                            ea reiciendis alias at nisi  necessitatibus fugit! Perspiciatis sequi
-                            delectus fuga est.
-                        </p>
+                        <p>
+                            Me llamo Estefi y me conocen como @soyestefisandoval. Soy profesora de Artes
+                            Visuales, Filmmaker en Eventos Sociales, Creadora de contenido para Bodas y
+                            Creadora de
+                            contenido para redes sociales. Fundadora de @magicfilmsok CONTENIDO AUDIOVISUAL.
+                            He capturado los momentos más mágicos de bodas durante más de 3 años.
+                            Amo que las cosas sean simples pero creativas y, por supuesto, memorables.</p>
                     </div>
                 </div>
             </div>
-            <div className="Portada-contacto">
+            <div className="Portada-contacto" >
                 <img src="https://www.digixem360.com/wp-content/uploads/2022/11/Events.jpg.webp" alt="" />
                 <div className="capa-contacto d-flex justify-content-center flex-column">
                     <div className="d-flex justify-content-center flex-column text-center container px-3" data-aos="fade-up">
