@@ -64,3 +64,20 @@
 
     
 }
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .menu-nav{
+        background-color:black;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        font-size: 20px;
+        font-weight: bold;
+        animation: header-scroll linear both;
+        animation-timeline: scroll(root block);
+        animation-range: 0 200px;
+        transition: 5s ease;
+    }
+
+}

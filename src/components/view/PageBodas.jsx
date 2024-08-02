@@ -25,7 +25,7 @@ const PageBodas = () => {
                         <h3 className="text-color">QUE HACEMOS COMO CREADORES DE CONTENIDO PARA BODAS?</h3>
                     </div>
                     <div className="row  mt-5"data-aos="fade-up">
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="w-100 descripcion-bodas">
                                 <p> Como creadores de contenido para bodas profesional nos dedicamos a
                                     la creación y edición de contenido audiovisual para bodas y eventos
@@ -35,7 +35,7 @@ const PageBodas = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="bodas-img">
                                 <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
                             </div>

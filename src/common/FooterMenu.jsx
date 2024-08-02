@@ -6,12 +6,12 @@ const FooterMenu = () => {
         <div className="footer" id="contacto">
             <div className="container footer-menu">
                 <div className="row">
-                    <div className="col-12 col-md-4 col-lg-3">
+                    <div className="col-12 col-md-4 col-lg-3 column-logo-footer">
                         <div className="container-logo-footer">
                             <img src={logoFooter} alt="" />
                         </div>
                     </div>
-                    <div className="col-12 col-md-4 col-lg-9">
+                    <div className="col-12 col-md-12 col-lg-9">
                         <div className="container-links-footer">
                             <div className="headers-footer">
                                 <ul>

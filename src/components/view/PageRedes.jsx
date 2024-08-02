@@ -26,7 +26,7 @@ const PageRedes = () => {
                         <h3 className="text-color fs-1 fw-bold"> Cobertura audiovisual de <br /> alta calidad.</h3>
                     </div>
                     <div className="row my-4">
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="descripcion-column">
                                 <p>Impulsa tus productos en redes sociales con nuestro servicio de filmación profesional.
                                     Creamos contenido visual atractivo que destaca las cualidades de tus productos y
@@ -46,7 +46,7 @@ const PageRedes = () => {
                             </div>
 
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="Nuestros-Servicios">
                                 <div className="hearder-servicios">
                                     <h5>Nuestros Servicios</h5>

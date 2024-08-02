@@ -81,3 +81,26 @@
     }
     
 }
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .titulo-eventos{
+        width: 75%;
+    }
+
+    .card-event {
+        height: 197px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .btn-evento {
+        height: 50px;
+        width: 176px;
+    }
+
+    .portada-secudariaInicio {
+        height: 413px;
+        width: 100%;
+    }
+}

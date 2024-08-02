@@ -146,3 +146,20 @@
         text-align: center;
     }
 }
+
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .column-logo-footer{
+       display: none;
+    }
+
+    .headers-footer ul {
+        height: 97%;
+        width: 75%;
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
