@@ -1,8 +1,10 @@
 import "../../assets/style/PageBodas.css";
-import { useEffect } from "react";
-import Testimonios from "../../components/Ui/Testimonios"
 import SliderServicios from "../Ui/SliderServicios";
 import Servicios from "../Ui/Servicios";
+import bodaIglesia from "../../assets/img/boda-iglesia.jpeg";
+import preBoda from "../../assets/img/boda-ring.webp";
+import bodaFiesta from "../../assets/img/casamientos-fiesta.webp";
+import boda2 from "../../assets/img/boda2.jpeg";
 const PageBodas = () => {
     return (
         <main>
@@ -37,7 +39,7 @@ const PageBodas = () => {
                         </div>
                         <div className="col-12 col-md-12 col-lg-6">
                             <div className="bodas-img">
-                                <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
+                                <img src={boda2} alt="" />
                             </div>
                         </div>
                     </div>
@@ -48,7 +50,7 @@ const PageBodas = () => {
                         <div className="row">
                             <div className="col-12 col-md-4 col-md-4 col-lg-4">
                                 <div className="cardMomentos-boda mt-4">
-                                    <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
+                                    <img src={preBoda} alt="foto de boda" />
                                     <div className="d-flex justify-content-center pt-4 fs-2">
                                         <span className="text-color">PRE</span>
                                     </div>
@@ -56,7 +58,7 @@ const PageBodas = () => {
                             </div>
                             <div className="col-12 col-md-4 col-md-4 col-lg-4">
                                 <div className="cardMomentos-boda mt-4">
-                                    <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
+                                    <img src={bodaIglesia} alt="foto de iglesia" />
                                     <div className="d-flex justify-content-center pt-4 fs-2">
                                         <span className="text-color">IGLESIA</span>
                                     </div>
@@ -64,7 +66,7 @@ const PageBodas = () => {
                             </div>
                             <div className="col-12 col-md-4 col-md-4 col-lg-4">
                                 <div className="cardMomentos-boda mt-4">
-                                    <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
+                                    <img src={bodaFiesta} alt="foto fiesta boda" />
                                     <div className="d-flex justify-content-center pt-4 fs-2">
                                         <span className="text-color">FIESTA</span>
                                     </div>
