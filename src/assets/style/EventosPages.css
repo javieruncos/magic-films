@@ -33,6 +33,7 @@
     height: 500px;
     width: 100%;
     font-size: 18px;
+    color: black;
 }
 
 .imagen-fiestas{
@@ -79,6 +80,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #18312b;
+    color: white;
     
 }
 
