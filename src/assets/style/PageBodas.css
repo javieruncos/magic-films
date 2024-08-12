@@ -19,15 +19,12 @@
     left: 0;
 }
 
-
-
 .container-title{
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
 .bodas-img{
@@ -45,6 +42,7 @@
 
 .descripcion-bodas{
     font-size: 25px;
+    color: black;
 }
 
 /* ******************************************************* */

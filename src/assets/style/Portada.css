@@ -40,6 +40,10 @@
    text-align: center
 }
 
+.capa-portada div img{
+    height: 200px;
+}
+
 .btn-portada{
     padding: 10px 50px;
     background-color: transparent;
@@ -81,6 +85,10 @@
 
     .img-portadaEvento{
         display: block;
+    }
+
+    .capa-portada div img {
+        height: 85px;
     }
 }
 

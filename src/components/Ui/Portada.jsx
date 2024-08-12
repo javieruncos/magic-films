@@ -2,6 +2,8 @@ import { useEffect, useRef } from "react";
 import "../../assets/style/Portada.css";
 import video from "../../assets/videos/video-fiesta.mp4";
 import evento from "../../assets/img/events.jpeg";
+import magicFilms from "../../assets/img/Magic.png"
+
 const Portada = () => {
 
     const videoRef = useRef(null);
@@ -41,10 +43,11 @@ const Portada = () => {
             <div className="capa-portada">
                 <div className="container" data-aos="fade-up">
                     <div className="container">
-                        <h1 className="display-2 fw-bold ">
+                        {/* <h1 className="display-2 fw-bold ">
                             <span className="text-color me-3">Magic Films</span>
-                            Contenido Audiovisual</h1>
-                    <button className="btn-portada mt-3">Contáctanos</button>
+                            Contenido Audiovisual</h1> */}
+                            <img src={magicFilms}  alt="" />
+                    <button className="btn-portada mt-4">Contáctanos</button>
                     </div>
                 </div>
             </div>

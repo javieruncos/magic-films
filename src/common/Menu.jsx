@@ -1,6 +1,7 @@
 import "../assets/style/Menu.css";
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import Magic from "../assets/img/Magic.png";
+import claqueta from "../assets/img/Claqueta-Aqua.png"
 
 const Menu = () => {
     return (
@@ -9,7 +10,7 @@ const Menu = () => {
                 <Container>
                     <Navbar.Brand href="#home">
                         <div className="logo-nav">
-                            <img src={Magic} alt="" />
+                            <img src={claqueta} alt="" />
                         </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
