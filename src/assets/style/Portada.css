@@ -97,4 +97,8 @@
     .portada {
         height: 508px;
     }
+
+    .capa-portada div img {
+        height: 105px;
+    }
 }
