@@ -1,16 +1,16 @@
-.portada-fiestas{
+.portada-fiestas {
     height: 600px;
     width: 100%;
     position: relative;
 }
 
-.portada-fiestas img{
+.portada-fiestas img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.capaPortada-fiestas{
+.capaPortada-fiestas {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.466);
@@ -21,142 +21,42 @@
     align-items: center;
 }
 
-.container-title{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.descripcion-column{
-    height: 500px;
+.eventos{
+    height: auto;
     width: 100%;
-    font-size: 18px;
-    color: black;
+    display: flex;
 }
 
-.imagen-fiestas{
+
+.info-text-eventos{
     height: 400px;
-    width: 100%;
+   background-color: rebeccapurple;
+   width: 50%;   
 }
 
-.imagen-fiestas img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.Nuestros-Servicios{
-    height: 260px;
-    width: 100%;
-    border: 1px solid #01f7b8;
-    background-color: #191919;
-    overflow: hidden;
-}
-
-.hearder-servicios{
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    color: #01f7b8;
-}
-
-.Nuestros-Servicios h5{
-    font-size: 30px;
-}
-
-.body-servicios{
-   font-size: 16px;
-}
-
-.contacto-servicios{
-    height: 130px;
-    width: 100%;
-    border: 1px solid #01f7b8;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #18312b;
-    color: white;
-    
-}
-
-.contacto-servicios div{
-    width: 60%;
-    font-size: 14px;
-}
-
-.contacto-servicios button{
-    padding: 20px 20px;
-    background-color: #01f7b8;
-    border: none;
-}
-
-.btn-verMas{
-    padding: 10px 60px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-}
-
-.btn-verMas:hover{
-    background-color: #191919;
-    color: white;
-    border: 1px solid #01f7b8;
+.eventos-container-img{
+    height: 400px;
+    width: 50%;
 }
 
 @media screen and (max-width: 599px) {
 
-    .descripcion-column{
-        height: 700px;
-    }
-
-    .descripcion-column{
-        height: 700px;
+    .eventos{
+        height: auto;
         width: 100%;
-        font-size: 18px;
-    }
-
-    .Nuestros-Servicios {
-        height: 324px;
-        width: 100%;
-        border: 1px solid #01f7b8;
-        background-color: #191919;
-        overflow: hidden;
-        margin-top: 100px;
-    }
-
-    .contacto-servicios{
-        height: 130px;
-        width: 100%;
-        border: 1px solid #01f7b8;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #18312b;
-        margin-bottom: 30px;
-        
+    }
+
+    .info-text-eventos{
+        height: 400px;
+       background-color: red;
+       width: 100%;   
     }
     
-
-    .contacto-servicios {
-        height: 237px;
+    .eventos-container-img{
+        height: 400px;
         width: 100%;
-        border: 1px solid #01f7b8;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #18312b;
-        margin-bottom: 30px;
-        flex-direction: column;
-        padding: 30px 10px;
-        text-align: center;
     }
-    
+
+
 }
-
-
-
