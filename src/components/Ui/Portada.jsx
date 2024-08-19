@@ -44,7 +44,7 @@ const Portada = () => {
                 <div className="container" data-aos="fade-up">
                     <div className="container">
                         <h1 className="display-2 fw-bold ">
-                            <span className="text-color me-3 display-1 fw-bold">Magic Films</span>
+                            <span className="text-color me-3">Magic Films</span>
                             Contenido Audiovisual</h1>
                             {/* <img src={magicFilms}  alt="" /> */}
                     <button className="btn-portada mt-4">Contáctanos</button>
