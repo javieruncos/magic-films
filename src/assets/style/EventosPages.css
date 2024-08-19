@@ -21,42 +21,74 @@
     align-items: center;
 }
 
-.eventos{
-    height: auto;
+.capaPortada-fiestas button{
+    padding: 10px 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.capaPortada-fiestas button:hover{
+    background-color:#191919;
+    border: 1px solid #01f7b8 ;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.eventos {
+
     width: 100%;
     display: flex;
+    gap: 20px;
 }
 
 
-.info-text-eventos{
-    height: 400px;
-   background-color: rebeccapurple;
-   width: 50%;   
-}
-
-.eventos-container-img{
+.info-text-eventos {
     height: 400px;
     width: 50%;
 }
 
+.eventos-container-img {
+    height: 400px;
+    width: 50%;
+}
+
+.eventos-container-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.eventos2{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+
 @media screen and (max-width: 599px) {
 
-    .eventos{
-        height: auto;
+    .eventos {
         width: 100%;
         display: flex;
+        flex-direction: column-reverse;
     }
 
-    .info-text-eventos{
-        height: 400px;
-       background-color: red;
-       width: 100%;   
+    .info-text-eventos {
+        height: 500px;
+        width: 100%;
+        padding-top: 30px;
     }
-    
-    .eventos-container-img{
-        height: 400px;
+
+    .eventos-container-img {
+        height: 450px;
         width: 100%;
     }
-
+    
+    .eventos2{
+        display: flex;
+        flex-direction: column;
+    }
 
 }

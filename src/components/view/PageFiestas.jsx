@@ -41,7 +41,7 @@ const PageFiestas = () => {
                     </div>
                 </article>
                 <article className="container my-5">
-                    <div className="eventos">
+                    <div className="eventos2">
                         <div className="eventos-container-img">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
@@ -57,6 +57,7 @@ const PageFiestas = () => {
                                 marca brille con una cobertura audiovisual que destaca en el mundo digital.
                             </p>
                         </div>
+
                     </div>
                 </article>
             </section>

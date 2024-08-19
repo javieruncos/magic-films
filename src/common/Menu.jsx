@@ -17,7 +17,7 @@ const Menu = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link href="/" className="link-menu">Inicio</Nav.Link>
-                            <Nav.Link href="#sobreNosotros" className="link-menu">Sobre Nosotros</Nav.Link>
+                            <Nav.Link href="/eventos" className="link-menu">Eventos</Nav.Link>
                             <Nav.Link href="#contacto" className="link-menu">Contacto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

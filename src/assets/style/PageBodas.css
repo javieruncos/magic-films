@@ -19,6 +19,20 @@
     left: 0;
 }
 
+.capa-portada-bodas button{
+    padding: 10px 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.capa-portada-bodas button:hover{
+    background-color: #191919;
+    color: white;
+    border: 1px solid #01f7b8;
+    transition: 0.5s ease;
+}
+
 .container-title{
     height: 100%;
     display: flex;
@@ -30,7 +44,6 @@
 .bodas-img{
     height: 350px;
     width: 100%;
-    background-color: blue;
 }
 
 .bodas-img img{
@@ -41,8 +54,8 @@
 }
 
 .descripcion-bodas{
-    font-size: 25px;
-    color: black;
+    font-size: 20px;
+    color: white;
 }
 
 /* ******************************************************* */
@@ -60,7 +73,7 @@
 
 
 .titulo-bodas{
-    width: 50%;
+    width: 100%;
 }
 /* ********************** servicios********************************* */
 .servicios-bodas{

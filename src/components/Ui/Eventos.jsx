@@ -20,7 +20,7 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Eventos</h2>
                                     </div>
-                                    <a href="/fiestas" className="btn-evento">
+                                    <a href="/eventos" className="btn-evento">
                                         mas informacion
                                     </a>
                                 </div>
@@ -39,32 +39,6 @@ const Eventos = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-12 col-md-6 col-lg-6 my-2" data-aos="fade-right">
-                            <div className="card-event">
-                                <img src="https://images.pexels.com/photos/16450996/pexels-photo-16450996/free-photo-of-fiesta-partido-adolescente-celebracion.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                                <div className="capa-card-eventos">
-                                    <div className="container mt-5 mx-3">
-                                        <h2>Fiestas</h2>
-                                    </div>
-                                    <a href="./cumpleaños" className="btn-evento">
-                                        mas informacion
-                                    </a>
-                                </div>
-                            </div>
-                        </div> */}
-                        {/* <div className="col-12 col-md-6 col-lg-6 my-2" data-aos="fade-left">
-                            <div className="card-event">
-                                <img src="https://images.pexels.com/photos/4279096/pexels-photo-4279096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                                <div className="capa-card-eventos">
-                                    <div className="container mt-5 mx-3">
-                                        <h2>Redes</h2>
-                                    </div>
-                                    <a href="/redes" className="btn-evento">
-                                        mas informacion
-                                    </a>
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
