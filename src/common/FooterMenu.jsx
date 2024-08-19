@@ -37,12 +37,12 @@ const FooterMenu = () => {
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
-                                <div className="contacto-footer">
-                                    <ul>
-                                        <li>Contacto : +34 123 456 789</li>
-                                        <li>Email : @magicfilms</li>
-                                    </ul>
+                                    <div className="contacto-footer">
+                                        <ul>
+                                            <li>Contacto : +34 123 456 789</li>
+                                            <li>Email : @magicfilms</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <hr />

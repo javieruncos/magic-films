@@ -11,6 +11,7 @@ import Aos from 'aos'
 import PageCumpleaños from './components/view/PageCumpleaños'
 import PageRedes from './components/view/PageRedes'
 import FooterMenu from './common/FooterMenu'
+import WspBtn from './components/Ui/WspBtn'
 
 function App() {
 
@@ -28,10 +29,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/bodas" element={<PageBodas></PageBodas>} />
-            <Route path="/fiestas" element={<PageFiestas></PageFiestas>} />
+            <Route path="/eventos" element={<PageFiestas></PageFiestas>} />
             <Route path="/cumpleaños" element={<PageCumpleaños></PageCumpleaños>} />
             <Route path="/redes" element={<PageRedes></PageRedes>} />
           </Routes>
+          <WspBtn></WspBtn>
           <FooterMenu></FooterMenu>
         </BrowserRouter>
       </div>

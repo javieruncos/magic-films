@@ -1,6 +1,7 @@
 import "../../assets/style/SobreNosotros.css";
 import fondo from "../../assets/img/ttten.svg"
 import Estefi from "../../assets/img/EstefiSandoval.jpg"
+import celular from "../../assets/img/celular-fondo2.png.png"
 const SobreNosotros = () => {
     return (
         <>

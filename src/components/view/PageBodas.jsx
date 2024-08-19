@@ -22,13 +22,13 @@ const PageBodas = () => {
                         </div>
                     </div>
                 </article>
-                <article className="mt-5 container">
-                    <div className="titulo-bodas" data-aos="fade-up">
-                        <h3 className="text-color">QUE HACEMOS COMO CREADORES DE CONTENIDO PARA BODAS?</h3>
-                    </div>
-                    <div className="row  mt-5"data-aos="fade-up">
+                <article className="mt-5 pt-3 container">
+                    <div className="row  mt-5" data-aos="fade-up">
                         <div className="col-12 col-md-12 col-lg-6">
                             <div className="w-100 descripcion-bodas">
+                                <div className="titulo-bodas">
+                                    <h3 className="text-color">QUE HACEMOS COMO CREADORES DE CONTENIDO PARA BODAS?</h3>
+                                </div>
                                 <p> Como creadores de contenido para bodas profesional nos dedicamos a
                                     la creación y edición de contenido audiovisual para bodas y eventos
                                     sociales en FORMATO VERTICAL. Mi objetivo es capturar los momentos
@@ -78,13 +78,8 @@ const PageBodas = () => {
                 <article className="my-5 pt-5 container" data-aos="fade-up">
                     <Servicios></Servicios>
                 </article>
-                <article className="mb-5">
-                    <SliderServicios></SliderServicios>
-                </article>
             </section>
-
         </main>
-
     );
 };
 
