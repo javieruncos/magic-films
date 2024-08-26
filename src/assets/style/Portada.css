@@ -62,8 +62,13 @@
 
 @media screen and (max-width: 599px) {
     .portada{
-        height: 660px;
+        height: 488px;
         width: 100%;
+    }
+
+    .capa-portada{
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.089);
     }
 
     .capa-portada div{
@@ -79,16 +84,18 @@
        text-align: center;
     }
 
-    /* .rotated-video {
-       display: none;
-    } */
-
-    /* .img-portadaEvento{
-        display: block;
-    } */
+    .rotated-video{
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        width: 100%; /* Ajusta el ancho del video para que cubra todo el alto del contenedor después de rotar */
+        height: 820vh; /* Ajusta la altura del video para que cubra todo el ancho del contenedor después de rotar */
+        transform: translate(-50%, -50%) rotate(-90deg);
+        transform-origin: center center;
+    }
 
     .capa-portada div img {
-        height: 85px;
+        height: 63px;
     }
 }
 

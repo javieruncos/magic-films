@@ -79,7 +79,6 @@
 .servicios-bodas{
     height: 350px;
     width: 100%;
-    background-color: blue;
     border-radius: 20px;
     overflow: hidden;
     color: black;
@@ -90,21 +89,7 @@
     width: 100%;
 }
 
-.color-servicios{
-    background-color: #87fee2;
-}
 
-.color-servicios2{
-    background-color: #a3a1a6;
-}
-
-.color-servicios3{
-    background-color:#126e7b ;
-}
-
-.servicios-bodas i{
-    font-size: 70px;
-}
 
 /* ************************************************* */
 .portada-secundaria-bodas{

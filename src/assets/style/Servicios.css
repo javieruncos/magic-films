@@ -17,13 +17,18 @@
 }
 
 .color-servicios2{
-    background-color: #2ebca6;
+    background-color:#2ebca6;
 }
 
 .color-servicios3{
-    background-color:#126e7b ;
+    background-color:#2ebca6;
 }
 
 .servicios-bodas i{
     font-size: 70px;
+}
+
+.bodyServicios p{
+    font-weight: bold;
+    color: white;
 }

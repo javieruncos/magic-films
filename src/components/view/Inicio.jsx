@@ -21,17 +21,16 @@ const Inicio = () => {
                 <Portada></Portada>
                 <article className="mt-5">
                     <Eventos></Eventos>
-                    <article className="mt-3 pt-4" id="sobreNosotros">
-                        <SobreNosotros></SobreNosotros>
-                    </article>
+                </article>
+                <article className="mt-3 pt-4" id="sobreNosotros">
+                    <SobreNosotros></SobreNosotros>
+                </article>
+                <article className="my-5 py-5">
+                    <Servicios></Servicios>
                 </article>
                 <article className="mt-5">
                     <PortadaDescripcion></PortadaDescripcion>
                 </article>
-                {/* <article className="mt-5">
-                    <SliderImg></SliderImg>
-                </article> */}
-
             </section>
         </main>
     );

@@ -15,10 +15,9 @@ const FooterMenu = () => {
                         <div className="container-links-footer">
                             <div className="headers-footer">
                                 <ul>
-                                    <li><a href="fiestas">Eventos</a></li>
-                                    <li><a href="/bodas">Casamientos</a></li>
-                                    <li><a href="/cumpleaños">Fiestas</a></li>
-                                    <li><a href="/redes">Redes</a></li>
+                                    <li><a href="fiestas">Eventos-Fiestas</a></li>
+                                    <li><a href="/bodas">Contenido para marcas -
+                                    Emprededores</a></li>
                                 </ul>
                             </div>
                             <hr />
