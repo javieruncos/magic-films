@@ -18,7 +18,7 @@ const Eventos = () => {
                                 <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                                 <div className="capa-card-eventos">
                                     <div className="container mt-5 mx-3">
-                                        <h2>Eventos</h2>
+                                        <h2>Eventos - Fiestas</h2>
                                     </div>
                                     <a href="/eventos" className="btn-evento">
                                         mas informacion
@@ -31,7 +31,7 @@ const Eventos = () => {
                                 <img src="https://www.webcasamiento.com/wp-content/uploads/2013/03/programa-fiesta-ramo.jpg" alt="" />
                                 <div className="capa-card-eventos">
                                     <div className="container mt-5 mx-3">
-                                        <h2>Casamientos</h2>
+                                        <h2>Contenido para marcas y <br />Emprededores</h2>
                                     </div>
                                     <a href="/bodas" className="btn-evento">
                                         mas informacion

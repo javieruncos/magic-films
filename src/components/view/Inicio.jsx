@@ -21,19 +21,17 @@ const Inicio = () => {
                 <Portada></Portada>
                 <article className="mt-5">
                     <Eventos></Eventos>
+                    <article className="mt-3 pt-4" id="sobreNosotros">
+                        <SobreNosotros></SobreNosotros>
+                    </article>
                 </article>
                 <article className="mt-5">
                     <PortadaDescripcion></PortadaDescripcion>
                 </article>
-                <article className="my-4 pt-5">
-                    <Servicios></Servicios>
-                </article>
                 {/* <article className="mt-5">
                     <SliderImg></SliderImg>
                 </article> */}
-                <article className="mt-3 pt-4" id="sobreNosotros">
-                    <SobreNosotros></SobreNosotros>
-                </article>
+
             </section>
         </main>
     );

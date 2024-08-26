@@ -79,13 +79,13 @@
        text-align: center;
     }
 
-    .rotated-video {
+    /* .rotated-video {
        display: none;
-    }
+    } */
 
-    .img-portadaEvento{
+    /* .img-portadaEvento{
         display: block;
-    }
+    } */
 
     .capa-portada div img {
         height: 85px;
