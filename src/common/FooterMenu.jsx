@@ -23,7 +23,7 @@ const FooterMenu = () => {
                             </div>
                             <hr />
                             <div className="redes-footer pt-4">
-                                <h6 className="text-color">Siguenos</h6>
+                                <h6 className="text-color">Seguinos</h6>
                                 <div>
                                     <ul>
                                         <li>

@@ -2,6 +2,7 @@ import "../../assets/style/SobreNosotros.css";
 import fondo from "../../assets/img/ttten.svg"
 import Estefi from "../../assets/img/EstefiSandoval.jpg"
 import celular from "../../assets/img/celular-fondo2.png.png"
+import Servicios from "./Servicios";
 const SobreNosotros = () => {
     return (
         <>
@@ -30,7 +31,7 @@ const SobreNosotros = () => {
                         <h5 className="display-2 fw-bold">Podemos ayudarte?</h5>
                         <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div>
-                            <button className="btn-contacto">comunicate con nosotros</button>
+                            <button className="btn-contacto">Chatea conmigo</button>
                         </div>
                     </div>
                 </div>
