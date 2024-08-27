@@ -1,15 +1,13 @@
 import "../../assets/style/EventosPages.css";
-import Servicios from "../Ui/Servicios";
-import SliderServicios from "../Ui/SliderServicios";
 const PageFiestas = () => {
     return (
         <main>
             <section>
                 <article>
-                    <div className="portada-fiestas">
+                    <div className="portada-Eventos">
                         <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="" />
-                        <div className="capaPortada-fiestas">
+                        <div className="capaPortada-Eventos">
                             <div className="container-title container">
                                 <div data-aos="fade-up">
                                     <h2 className="display-3 fw-bold"><span className="text-color">Grabación</span>  de Eventos con Calidad Profesional</h2>
@@ -21,7 +19,7 @@ const PageFiestas = () => {
                 </article>
             </section>
             <section>
-                <article className="container my-5">
+                <article className="container my-5 pt-5">
                     <div className="eventos">
                         <div className=" container info-text-eventos" >
                             <h3 className="text-color fs-2 fw-bold"> Cobertura audiovisual de <br /> alta calidad.</h3>
@@ -57,18 +55,9 @@ const PageFiestas = () => {
                                 marca brille con una cobertura audiovisual que destaca en el mundo digital.
                             </p>
                         </div>
-
                     </div>
                 </article>
             </section>
-            {/* <section>
-                <article>
-                    <Servicios></Servicios>
-                </article>
-                <article className="my-5 ">
-                    <SliderServicios></SliderServicios>
-                </article>
-            </section> */}
         </main>
     );
 };
