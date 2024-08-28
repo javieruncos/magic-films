@@ -27,6 +27,11 @@
     font-size: 50px;
     color: white;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 

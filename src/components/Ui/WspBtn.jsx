@@ -3,9 +3,9 @@ import React from 'react';
 const WspBtn = () => {
     return (
         <>
-            <button className='wsp'>
+            <a href='https://wa.link/n6d05n' className='wsp'>
                 <i class="bi bi-whatsapp"></i>
-            </button>
+            </a>
         </>
 
     );

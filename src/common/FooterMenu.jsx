@@ -15,10 +15,9 @@ const FooterMenu = () => {
                         <div className="container-links-footer">
                             <div className="headers-footer">
                                 <ul>
-                                    <li><a href="fiestas">Eventos</a></li>
-                                    <li><a href="/bodas">Casamientos</a></li>
-                                    <li><a href="/cumpleaños">Fiestas</a></li>
-                                    <li><a href="/redes">Redes</a></li>
+                                    <li><a href="fiestas">Eventos-Fiestas</a></li>
+                                    <li><a href="/bodas">Contenido para marcas -
+                                    Emprededores</a></li>
                                 </ul>
                             </div>
                             <hr />
@@ -27,12 +26,12 @@ const FooterMenu = () => {
                                 <div>
                                     <ul>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.instagram.com/magicfilmsok?igsh=Z3k4cHAxbGN4aXU%3D&utm_source=qr">
                                                 <i className="bi bi-instagram fs-1"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.facebook.com/profile.php?id=100084927533863&mibextid=LQQJ4d">
                                                 <i className="bi bi-facebook fs-1"></i>
                                             </a>
                                         </li>

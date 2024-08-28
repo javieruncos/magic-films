@@ -1,16 +1,16 @@
-.portada-fiestas {
+.portada-Eventos {
     height: 600px;
     width: 100%;
     position: relative;
 }
 
-.portada-fiestas img {
+.portada-Eventos img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.capaPortada-fiestas {
+.capaPortada-Eventos {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.466);
@@ -21,14 +21,22 @@
     align-items: center;
 }
 
-.capaPortada-fiestas button{
+.container-title{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.capaPortada-Eventos button{
     padding: 10px 50px;
     background-color: transparent;
     border: 1px solid white;
     color: white;
 }
 
-.capaPortada-fiestas button:hover{
+.capaPortada-Eventos button:hover{
     background-color:#191919;
     border: 1px solid #01f7b8 ;
     color: white;
@@ -68,7 +76,7 @@
 
 
 @media screen and (max-width: 599px) {
-
+ 
     .eventos {
         width: 100%;
         display: flex;

@@ -42,6 +42,16 @@
  
 }
 
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    position: absolute;
+}
+
+.dropdown-menu a{
+    color: white;
+}
+
 @media screen and (max-width: 599px) {
     .menu-nav{
         background-color:black;
