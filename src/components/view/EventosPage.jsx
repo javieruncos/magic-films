@@ -20,7 +20,7 @@ const PageFiestas = () => {
             </section>
             <section>
                 <article className="container my-5 pt-5">
-                    <div className="eventos">
+                    <div className="eventos" data-aos="fade-up">
                         <div className=" container info-text-eventos" >
                             <h3 className="text-color fs-2 fw-bold"> Cobertura audiovisual de <br /> alta calidad.</h3>
                             <p>Ofrecemos servicios de filmación especializados en eventos y convenciones,
@@ -39,7 +39,7 @@ const PageFiestas = () => {
                     </div>
                 </article>
                 <article className="container my-5">
-                    <div className="eventos2">
+                    <div className="eventos2" data-aos="fade-up">
                         <div className="eventos-container-img">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>

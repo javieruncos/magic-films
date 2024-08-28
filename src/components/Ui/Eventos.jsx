@@ -33,7 +33,7 @@ const Eventos = () => {
                                     <div className="container mt-5 mx-3">
                                         <h2>Marcas - Emprededores</h2>
                                     </div>
-                                    <a href="/bodas" className="btn-evento">
+                                    <a href="/marcas" className="btn-evento">
                                         mas informacion
                                     </a>
                                 </div>
