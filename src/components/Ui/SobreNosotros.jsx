@@ -20,19 +20,9 @@ const SobreNosotros = () => {
                             Creadora de
                             contenido para redes sociales. Fundadora de @magicfilmsok CONTENIDO AUDIOVISUAL.
                             He capturado los momentos más mágicos de bodas durante más de 3 años.
-                            Amo que las cosas sean simples pero creativas y, por supuesto, memorables.</p>
-                    </div>
-                </div>
-            </div>
-            <div className="Portada-contacto" >
-                <img src="https://www.digixem360.com/wp-content/uploads/2022/11/Events.jpg.webp" alt="" />
-                <div className="capa-contacto d-flex justify-content-center flex-column">
-                    <div className="d-flex justify-content-center flex-column text-center container px-3" data-aos="fade-up">
-                        <h5 className="display-2 fw-bold">Podemos ayudarte?</h5>
-                        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div>
-                            <button className="btn-contacto">Chatea conmigo</button>
-                        </div>
+                            Amo que las cosas sean simples pero creativas y, por supuesto, memorables.
+                        </p>
+                        <button className="btn-nosotros mt-3">Chatea Conmigo</button>
                     </div>
                 </div>
             </div>
