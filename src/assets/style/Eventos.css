@@ -4,8 +4,16 @@
 }
 
 .titulo-eventos{
-    width: 60%;
+    width: 67%;
     color: white;
+}
+
+.titulo-eventos h3{
+    font-size: 40px;
+}
+
+.titulo-eventos p{
+    font-size: 14px;
 }
 
 .card-event{
@@ -58,7 +66,11 @@
    
     .titulo-eventos{
         width: 100%;
-        font-size: 13px;
+        font-size: 11px;
+    }
+
+    .titulo-eventos h3{
+        font-size: 20px;
     }
 
     .card-event{

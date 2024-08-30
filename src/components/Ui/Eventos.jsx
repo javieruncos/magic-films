@@ -5,9 +5,12 @@ const Eventos = () => {
     return (
         <div className="container" data-aos="fade-up">
             <div className="titulo-eventos mb-4 px-3" data-aos="fade-up">
-                <h3 className="text-color fs-2 fw-bold my-4" >Cada evento, una historia unica</h3>
-                <p>Capturamos momentos únicos con pasión y precisión. Nuestro equipo trabaja con dedicación para
-                    asegurar que cada detalle de tu evento se convierta en un recuerdo inolvidable.
+                <h3 className="text-color  my-4" >Transformo tus momentos mas importantes en recuerdos eternos</h3>
+                <p>En MagicFilms me especializo en capturar la esencia de cada evento con una mirada artística y profesional,
+                    asegurándome de que cada detalle, sonrisa y emoción queden inmortalizados.
+                </p>
+                <p>
+                    "Descubre cómo puedo convertir tu próximo evento en una obra maestra visual"
                 </p>
             </div>
             <div className='eventos'>
