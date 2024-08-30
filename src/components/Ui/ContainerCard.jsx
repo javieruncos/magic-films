@@ -4,8 +4,8 @@ const ContainerCard = () => {
     return (
         <div>
             <div className="row">
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
@@ -20,8 +20,8 @@ const ContainerCard = () => {
 
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4"  data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
@@ -34,8 +34,8 @@ const ContainerCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
@@ -48,105 +48,104 @@ const ContainerCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div className="body-card pt-3 ">
-                            <p className="text-color fs-5 fw-bold">Bautismos y Primera Comunion</p>
+                            <p className="text-color fs-5 fw-bold">Eventos Corporativos</p>
                             <p>
-                                Acompaño a tu familia en esos días únicos, llenos de emoción y tradición,
-                                capturando cada gesto, cada sonrisa, cada abrazo.
+                                Desde conferencias hasta lanzamientos de productos y cenas de gala,
+                                documento cada detalle para que tu empresa brille.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div className="body-card pt-3 ">
-                            <p className="text-color fs-5 fw-bold">Bautismos y Primera Comunion</p>
+                            <p className="text-color fs-5 fw-bold">Eventos Culturales y Folklóricos</p>
                             <p>
-                                Acompaño a tu familia en esos días únicos, llenos de emoción y tradición,
-                                capturando cada gesto, cada sonrisa, cada abrazo.
+                                En Tucumán, la cultura se vive a cada momento. Estoy presente en cada festival de música,
+                                danza y arte, capturando la vibrante energía de cada evento.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div className="body-card pt-3 ">
-                            <p className="text-color fs-5 fw-bold">Bautismos y Primera Comunion</p>
+                            <p className="text-color fs-5 fw-bold">Graduaciones y Actos Escolares</p>
                             <p>
-                                Acompaño a tu familia en esos días únicos, llenos de emoción y tradición,
-                                capturando cada gesto, cada sonrisa, cada abrazo.
+                                Grabo esos momentos llenos de orgullo, desde los actos de fin de curso hasta las
+                                ceremonias de graduación universitaria.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div className="body-card pt-3 ">
-                            <p className="text-color fs-5 fw-bold">Bautismos y Primera Comunion</p>
+                            <p className="text-color fs-5 fw-bold">Eventos Deportivos Locales</p>
                             <p>
-                                Acompaño a tu familia en esos días únicos, llenos de emoción y tradición,
-                                capturando cada gesto, cada sonrisa, cada abrazo.
+                                Sigo la acción de cada torneo, carrera y competencia deportiva, asegurando
+                                que cada victoria y esfuerzo queden registrados.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div className="body-card pt-3 ">
-                            <p className="text-color fs-5 fw-bold">Bautismos y Primera Comunion</p>
+                            <p className="text-color fs-5 fw-bold">Desfiles de Moda y Eventos de Belleza</p>
                             <p>
-                                Acompaño a tu familia en esos días únicos, llenos de emoción y tradición,
-                                capturando cada gesto, cada sonrisa, cada abrazo.
+                                Retrato la elegancia y el glamour de las galas, desfiles de moda
+                                y concursos de belleza.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
-                    <div className="card-eventos">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
+                    <div className="card-eventos mb-3">
                         <div className="header-card">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div className="body-card pt-3 ">
-                            <p className="text-color fs-5 fw-bold">Bautismos y Primera Comunion</p>
+                            <p className="text-color fs-5 fw-bold">Exposiciones y Ferias</p>
                             <p>
-                                Acompaño a tu familia en esos días únicos, llenos de emoción y tradición,
-                                capturando cada gesto, cada sonrisa, cada abrazo.
+                                Desde ferias comerciales hasta muestras de arte y gastronomía,
+                                capturo el espíritu de cada evento.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4">
+                <div className="col-12 col-md-4 col-lg-4" data-aos="fade-up">
                     <div className="card-eventos">
-                        <div className="header-card">
+                        <div className="header-card mb-3">
                             <img src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div className="body-card pt-3 ">
-                            <p className="text-color fs-5 fw-bold">Bautismos y Primera Comunion</p>
+                            <p className="text-color fs-5 fw-bold">Eventos Políticos y Sociales </p>
                             <p>
-                                Acompaño a tu familia en esos días únicos, llenos de emoción y tradición,
-                                capturando cada gesto, cada sonrisa, cada abrazo.
+                                Documentando cada acto político, marcha y ceremonia oficial, estoy allí
+                                para que cada evento quede grabado en la memoria colectiva.
                             </p>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     );

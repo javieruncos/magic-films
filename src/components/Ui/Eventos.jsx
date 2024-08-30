@@ -7,11 +7,12 @@ const Eventos = () => {
             <div className="titulo-eventos mb-4 px-3" data-aos="fade-up">
                 <h3 className="text-color  my-4" >Transformo tus momentos mas importantes en recuerdos eternos</h3>
                 <p>En MagicFilms me especializo en capturar la esencia de cada evento con una mirada artística y profesional,
-                    asegurándome de que cada detalle, sonrisa y emoción queden inmortalizados.
-                </p>
-                <p>
+                    asegurándome de que cada detalle, sonrisa y emoción queden inmortalizados. <br />
                     "Descubre cómo puedo convertir tu próximo evento en una obra maestra visual"
                 </p>
+                {/* <p>
+                    "Descubre cómo puedo convertir tu próximo evento en una obra maestra visual"
+                </p> */}
             </div>
             <div className='eventos'>
                 <div className="container">

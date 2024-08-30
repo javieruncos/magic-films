@@ -47,7 +47,7 @@
     position: absolute;
 }
 
-.Portada-contacto {
+/* .Portada-contacto {
     height: 400px;
     width: 100%;
     position: relative;
@@ -78,6 +78,22 @@
     border: 2px solid white;
     color: white;
     font-size: 20px;
+    text-decoration: none;
+} */
+
+.btn-nosotros{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #01f7b8;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-nosotros:hover{
+    background-color: #01f7b8;
+    color: black;
+    transition: 0.5s ease;
 }
 
 @media screen and (max-width: 599px) {
@@ -139,7 +155,6 @@
         color: white;
         font-size: 10px;
     }
-
 }
 
 

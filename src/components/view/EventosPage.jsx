@@ -11,6 +11,7 @@ const PageFiestas = () => {
                         <div className="capaPortada-Eventos">
                             <div className="container-title container">
                                 <div data-aos="fade-up">
+                                    {/* <h2 className="display-3 fw-bold"><span className="text-color">Grabación</span>  de Eventos con Calidad Profesional</h2> */}
                                     <h2 className="display-3 fw-bold"><span className="text-color">Grabación</span>  de Eventos con Calidad Profesional</h2>
                                     <button className="btn-verMas mt-4">Contáctanos</button>
                                 </div>
