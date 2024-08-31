@@ -1,4 +1,4 @@
-.footer{
+.footer {
     height: 500px;
     width: 100%;
     background-color: black;
@@ -7,11 +7,11 @@
     align-items: center;
 }
 
-.footer-menu{
+.footer-menu {
     width: 100%;
 }
 
-.container-logo-footer{
+.container-logo-footer {
     height: 300px;
     width: 100%;
     display: flex;
@@ -20,118 +20,158 @@
     padding-top: 10px;
 }
 
-.container-logo-footer img{
+.container-logo-footer img {
     height: 150px;
     width: 200px;
-   
+
 }
 
-.contacto-footer{
+.contacto-footer {
     height: 100px;
     width: 100%;
     margin-top: 0px;
     color: #01f7b8;
+    display: flex;
 }
 
-.contacto-footer ul{
+.contacto-footer ul {
     font-size: 16px;
     list-style: none;
     padding: 0px;
+    display: flex;
+    gap: 30px;
 }
 
-.container-links-footer{
-    height: 100%;
-    width: 100%;
-}
 
-.headers-footer{
+.headers-footer {
     height: 100px;
     width: 100%;
 }
 
-.headers-footer ul{
+.headers-footer ul {
     height: 100%;
     width: 100%;
     list-style: none;
     padding: 0px;
     display: flex;
-   gap: 50px;
+    gap: 50px;
     align-items: center;
 }
 
-.headers-footer ul a{
+.headers-footer ul a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-.redes-footer{
+.redes-footer {
     height: 100px;
     width: 100%;
     margin-bottom: 50px;
-}
-
-.redes-footer div{
     display: flex;
-    align-items: center;
 }
 
-.redes-footer > div > ul{
-  width: 50%;
+.footer-logo-magic {
+    width: 30%;
+    height: 100px;
 }
 
-.redes-footer ul{    
-    width: 100%;   
+.footer-logo-magic div ul {
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+}
+
+.footer-logo-magic li {
     list-style: none;
-    padding: 0px;
+}
+
+.footer-logo-magic a {
+    color: white;
+
+}
+
+.redes-personal {
+    width: 50%;
+    height: 100px;
+}
+
+.enlace-personal {
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 100%;
-    padding: 10px 0px;
     gap: 20px;
 }
 
-.redes-footer a{
+.enlace-personal span {
+    font-size: 20px;
+}
+
+.enlace-personal a {
     text-decoration: none;
+}
+
+.enlace-personal a:hover {
+    color: #01f7b8;
+}
+
+.redes-footer a {
     color: white;
 }
 
+
+
+/* ****************************************************** */
+
+
+
 @media screen and (max-width: 599px) {
-    .footer{
-        height: 500px;
+    .footer {
+        height: 700px;
+    }
+
+    .footer-menu {
+        width: 100%;
+        height: 599px;
     }
 
     .redes-footer {
-        height: 100px;
+        height: 224px;
         width: 100%;
         text-align: center;
         padding: 0px 30px;
         margin-bottom: 20px;
-    }
-
-    .redes-footer ul{       
-       padding: 10px 0px;
-       display: flex;
-       justify-content: center;
-       gap: 30px;
-    }
-
-    .redes-footer div{
-        display: flex;
-        align-items: center;
         flex-direction: column;
     }
 
-    .container-logo-footer{
+    .footer-logo-magic {
+        width: 100%;
+        height: 100px;
+    }
+
+    .redes-personal {
+        width: 102%;
+        height: 100px;
+    }
+
+    .enlace-personal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .redes-footer ul {
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .container-logo-footer {
         display: none;
     }
 
-    .container-links-footer{
-        height: 300px;
-    }
-
-    .contacto-footer{
+    .contacto-footer {
         margin-top: 30px;
     }
 
@@ -142,10 +182,18 @@
     }
 
     .headers-footer {
-        height: 100px;
+        height: 146px;
         width: 100%;
         display: flex;
         justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .contacto-footer {
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+        padding: 0px 30px;
     }
 
     .headers-footer ul {
@@ -163,14 +211,18 @@
 }
 
 
+
+
 @media screen and (min-width: 600px) and (max-width: 991px) {
-    .column-logo-footer{
-       display: none;
+
+
+    .column-logo-footer {
+        display: none;
     }
 
     .headers-footer ul {
         height: 97%;
-        width: 75%;
+        width: 100%;
         list-style: none;
         padding: 0px;
         display: flex;
