@@ -1,41 +1,59 @@
-.eventos{
+.eventos {
     width: 100%;
     overflow: hidden;
 }
 
-.titulo-eventos{
-    width: 67%;
+.titulo-eventos {
+    width: 100%;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
 }
 
-.titulo-eventos h3{
-    font-size: 30px;
+.titulo-large{
+    width: 70%;
+    text-align: center;
 }
 
-.titulo-eventos p{
+.titulo-large h3 {
+    font-size: 36px;
+}
+
+.titulo-responsive{
+    display: none;
+    width: 100%;
+}
+
+.info-text {
+    width: 55%;
+}
+
+.titulo-eventos p {
     font-size: 14px;
 }
 
-.card-event{
+.card-event {
     height: 300px;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
 
-.card-event:hover img{
+.card-event:hover img {
     transform: scale(1.1);
     transition: 1s ease;
 
 }
 
-.card-event img{
+.card-event img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.capa-card-eventos{
+.capa-card-eventos {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.397);
@@ -45,10 +63,10 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-   
+
 }
 
-.btn-evento{
+.btn-evento {
     height: 50px;
     width: 250px;
     background-color: #2ebca6;
@@ -63,23 +81,46 @@
 }
 
 @media screen and (max-width: 599px) {
-   
-    .titulo-eventos{
+
+    .titulo-eventos {
         width: 100%;
         font-size: 11px;
     }
 
-    .titulo-eventos h3{
+    .titulo-eventos {
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .titulo-large{
+        display: none;
+    }
+
+    .titulo-responsive{
+        display: block;
+        width: 100%;
+    }
+
+    .titulo-eventos div h3 {
         font-size: 20px;
     }
 
-    .card-event{
+    .info-text{
+        display: none;
+    }
+
+    .card-event {
         height: 200px;
         width: 100%;
         position: relative;
     }
 
-    .nombre-evento{
+    .nombre-evento {
         height: 50px;
         width: 200px;
         background-color: #01f7b8;
@@ -89,15 +130,36 @@
         justify-content: center;
         align-items: center;
     }
-    .nombre-evento h4{
+
+    .nombre-evento h4 {
         font-size: 15px;
     }
-    
+
+}
+
+@media screen and (max-width: 399px)  {
+    .titulo-eventos div h3 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 991px) {
-    .titulo-eventos{
+    .titulo-eventos {
         width: 75%;
+    }
+
+    .titulo-large{
+        width: 70%;
+        text-align: center;
+        display: none;
+    }
+
+    .info-text{
+        display: none;
+    }
+
+    .titulo-responsive{
+        display: block;
     }
 
     .card-event {
